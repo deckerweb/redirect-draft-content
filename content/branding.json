@@ -1,0 +1,18 @@
+{
+  "slogan": {
+    "en": "Your content takes a short break.",
+    "de": "Deine Inhalte machen kurz Pause."
+  },
+  "palette": {
+    "background_start": "#101b32",
+    "background_mid": "#15223d",
+    "background_end": "#1d2e50",
+    "accent": "#7399ff",
+    "text": "#eef3ff"
+  },
+  "icon": "assets/brand/icon.svg",
+  "banners": {
+    "en": "assets-github/banner-en-1280x640.png",
+    "de": "assets-github/banner-de-1280x640.png"
+  }
+}

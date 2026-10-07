@@ -32,6 +32,9 @@ msgstr ""
 msgid "Define, for each content type, where requests for content in draft status should be redirected to via a 302 redirect – either to an existing published item or to a custom URL."
 msgstr ""
 
+msgid "Development and test versions; not publicly released."
+msgstr ""
+
 msgid "Documentation"
 msgstr ""
 
@@ -62,6 +65,9 @@ msgstr ""
 msgid "Invalid authentication provider."
 msgstr ""
 
+msgid "Local Shade artwork, a compact settings header and deckerweb Library 0.7.0."
+msgstr ""
+
 msgid "Misc:"
 msgstr ""
 
@@ -78,6 +84,9 @@ msgid "Open target URL in new tab ↗"
 msgstr ""
 
 msgid "Please select a target or enter a URL first."
+msgstr ""
+
+msgid "Plugin information"
 msgstr ""
 
 msgid "Preview"
@@ -174,6 +183,12 @@ msgid "Use a complete HTTP or HTTPS URL without credentials."
 msgstr ""
 
 msgid "Use a custom URL"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Your content takes a short break."
 msgstr ""
 
 msgid "— Please select —"

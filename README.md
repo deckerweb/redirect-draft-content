@@ -1,8 +1,6 @@
 # Redirect Draft Content
 
-![Redirect Draft Content](assets-github/drafts/a-route-banner-en.png)
-
-Artwork draft A — the final variant is pending.
+![Redirect Draft Content](assets-github/banner-en-1280x640.png)
 
 ## About
 
@@ -26,7 +24,7 @@ Contents: [At a glance](#at-a-glance) · [Getting started](#getting-started) · 
 - Custom HTTP/HTTPS URLs and live previews.
 - Exact route matching and protection against known draft loops.
 - English, German and formal German.
-- deckerweb Library 0.6.2 and deckerweb Updater 2.1.0.
+- deckerweb Library 0.7.0 and deckerweb Updater 2.1.0.
 
 ## Getting started
 
@@ -85,7 +83,12 @@ Your rdc_targets settings and all content remain. Repository-specific updater ca
 
 - **New:** Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.
 - **Improved:** Search published targets, pause each content type and keep existing site settings.
+- **Improved:** Local Shade artwork, a compact settings header and deckerweb Library 0.7.0.
 - **Fixed:** Exact route matching, validated targets and protection against self-redirects.
+
+### 0.1.0–0.8.0
+
+- **Misc:** Development and test versions; not publicly released.
 
 ## Project and support
 
@@ -93,4 +96,4 @@ Developed and published by David Decker – DECKERWEB. This plugin is a small to
 
 [Report bugs](https://github.com/deckerweb/redirect-draft-content/issues) · [Questions](https://github.com/deckerweb/redirect-draft-content/discussions) · [Security](SECURITY.md) · [Ko-fi](https://ko-fi.com/deckerweb) · [Buy Me a Coffee](https://buymeacoffee.com/daveshine) · [PayPal](https://paypal.me/deckerweb)
 
-Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. The shared Library and updater are by David Decker – DECKERWEB and bundled locally under the same license. Original helper behavior comes from the plugin author's supplied snippet. SVG artwork is original draft work under GPL-2.0-or-later; no fonts are bundled.
+Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. The shared Library and updater are by David Decker – DECKERWEB and bundled locally under the same license. Original helper behavior comes from the plugin author's supplied snippet. SVG artwork is original work under GPL-2.0-or-later; no fonts are bundled.

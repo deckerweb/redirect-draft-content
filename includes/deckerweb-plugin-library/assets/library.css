@@ -70,3 +70,5 @@
 #deckerweb-library .dwl-inline-status{margin:10px 0;color:#22713b;overflow-wrap:anywhere}
 #deckerweb-library .dwl-inline-error{color:#b32d2e}
 #deckerweb-library .dwl-action[aria-busy=true] .button{cursor:progress}
+
+#deckerweb-library .dwl-icon-fallback{font-size:20px;letter-spacing:-.3px}

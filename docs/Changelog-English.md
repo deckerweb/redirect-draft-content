@@ -6,4 +6,9 @@
 
 - **New:** Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.
 - **Improved:** Search published targets, pause each content type and keep existing site settings.
+- **Improved:** Local Shade artwork, a compact settings header and deckerweb Library 0.7.0.
 - **Fixed:** Exact route matching, validated targets and protection against self-redirects.
+
+### 0.1.0–0.8.0
+
+- **Misc:** Development and test versions; not publicly released.

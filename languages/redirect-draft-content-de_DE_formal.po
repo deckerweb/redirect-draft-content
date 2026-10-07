@@ -31,6 +31,9 @@ msgstr "Eigene URL"
 msgid "Define, for each content type, where requests for content in draft status should be redirected to via a 302 redirect – either to an existing published item or to a custom URL."
 msgstr "Legen Sie für jeden Inhaltstyp fest, wohin Aufrufe von Inhalten im Entwurfsstatus per 302-Weiterleitung umgeleitet werden sollen – entweder auf einen vorhandenen, veröffentlichten Inhalt oder auf eine eigene URL."
 
+msgid "Development and test versions; not publicly released."
+msgstr "Entwicklungs- und Testversionen, unveröffentlicht."
+
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -61,6 +64,9 @@ msgstr "Ungültige GitHub-Repository-URL."
 msgid "Invalid authentication provider."
 msgstr "Ungültiger Authentifizierungsanbieter."
 
+msgid "Local Shade artwork, a compact settings header and deckerweb Library 0.7.0."
+msgstr "Lokale Shade-Grafiken, kompakter Settings-Header und deckerweb Library 0.7.0."
+
 msgid "Misc:"
 msgstr "Sonstiges:"
 
@@ -78,6 +84,9 @@ msgstr "Ziel-URL in neuem Tab öffnen ↗"
 
 msgid "Please select a target or enter a URL first."
 msgstr "Bitte zuerst ein Ziel auswählen oder eine URL eingeben."
+
+msgid "Plugin information"
+msgstr "Plugin-Informationen"
 
 msgid "Preview"
 msgstr "Vorschau"
@@ -174,6 +183,12 @@ msgstr "Verwenden Sie eine vollständige HTTP- oder HTTPS-URL ohne Zugangsdaten.
 
 msgid "Use a custom URL"
 msgstr "Eigene URL verwenden"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Your content takes a short break."
+msgstr "Ihre Inhalte machen kurz Pause."
 
 msgid "— Please select —"
 msgstr "— Bitte auswählen —"

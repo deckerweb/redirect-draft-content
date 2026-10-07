@@ -176,7 +176,7 @@ class DDW_Redirect_Draft_Content {
 		$post_type_objects = $this->get_public_post_types( 'objects' );
 		?>
 		<div class="wrap rdc-settings">
-			<h1>Redirect Draft Content</h1>
+			<header class="rdc-header"><img src="<?php echo esc_url( plugins_url( 'assets/brand/icon.svg', DDW_RDC_FILE ) ); ?>" width="44" height="44" alt="" aria-hidden="true"><div><h1>Redirect Draft Content</h1><p class="rdc-header-slogan"><?php esc_html_e( 'Your content takes a short break.', 'redirect-draft-content' ); ?></p></div></header>
 			<p class="rdc-series">deckerweb · Manage Content · 0.9.0</p>
 			<p><?php esc_html_e( 'Define, for each content type, where requests for content in draft status should be redirected to via a 302 redirect – either to an existing published item or to a custom URL.', 'redirect-draft-content' ); ?></p>
 
@@ -312,13 +312,19 @@ class DDW_Redirect_Draft_Content {
 	/** Render a compact footer and keyboard-accessible local changelog. @return void */
 	public function footer(): void {
 		?>
-		<footer class="rdc-footer"><span>Redirect Draft Content · 0.9.0 · David Decker – DECKERWEB</span> · <a href="https://github.com/deckerweb/redirect-draft-content"><?php esc_html_e( 'Documentation', 'redirect-draft-content' ); ?></a> · <button type="button" class="button-link" id="rdc-history-open"><?php esc_html_e( 'Changelog', 'redirect-draft-content' ); ?></button> · <a href="https://ko-fi.com/deckerweb"><?php esc_html_e( 'Support this plugin', 'redirect-draft-content' ); ?></a></footer>
+		<footer class="rdc-footer" aria-label="<?php echo esc_attr__( 'Plugin information', 'redirect-draft-content' ); ?>">
+			<div class="rdc-footer-brand">
+				<div><p><strong>Redirect Draft Content</strong> <span><?php esc_html_e( 'Version', 'redirect-draft-content' ); ?> <?php echo esc_html( DDW_RDC_VERSION ); ?></span></p>
+				<p><button type="button" class="button-link" id="rdc-history-open" aria-haspopup="dialog" aria-controls="rdc-history"><?php esc_html_e( 'Changelog', 'redirect-draft-content' ); ?></button> · <a href="<?php echo esc_url( 'https://github.com/deckerweb/redirect-draft-content/wiki/' . ( str_starts_with( determine_locale(), 'de' ) ? 'Deutsch' : 'English' ) ); ?>"><?php esc_html_e( 'Documentation', 'redirect-draft-content' ); ?></a></p></div>
+			</div>
+			<div class="rdc-footer-author"><p>© 2026 <a href="https://github.com/deckerweb">David Decker – DECKERWEB</a></p><p><a href="https://ko-fi.com/deckerweb"><?php esc_html_e( 'Support this plugin', 'redirect-draft-content' ); ?></a></p></div>
+		</footer>
 		<dialog id="rdc-history" aria-labelledby="rdc-history-title"><h2 id="rdc-history-title"><?php esc_html_e( 'Changelog', 'redirect-draft-content' ); ?></h2>
 		<?php
 		$history = json_decode( (string) file_get_contents( __DIR__ . '/history.json' ), true );
 		$categories = array( 'New:' => __( 'New:', 'redirect-draft-content' ), 'Improved:' => __( 'Improved:', 'redirect-draft-content' ), 'Fixed:' => __( 'Fixed:', 'redirect-draft-content' ), 'Misc:' => __( 'Misc:', 'redirect-draft-content' ) );
 		foreach ( is_array( $history ) ? $history : array() as $release ) {
-			echo '<h3>' . esc_html( $release['version'] ) . ' <small>' . esc_html( $release['date'] ) . '</small></h3>';
+			echo '<h3>' . esc_html( $release['version'] ) . ( ! empty( $release['date'] ) ? ' <small>' . esc_html( $release['date'] ) . '</small>' : '' ) . '</h3>';
 			foreach ( $categories as $category => $label ) {
 				if ( empty( $release['changes'][ $category ] ) ) { continue; }
 				echo '<span class="rdc-badge rdc-' . esc_attr( strtolower( rtrim( $category, ':' ) ) ) . '">' . esc_html( $label ) . '</span><ul>';

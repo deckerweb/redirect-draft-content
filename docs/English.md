@@ -1,8 +1,6 @@
 # Redirect Draft Content
 
-![Redirect Draft Content](https://raw.githubusercontent.com/deckerweb/redirect-draft-content/main/assets-github/drafts/a-route-banner-en.png)
-
-Artwork draft A
+![Redirect Draft Content](https://raw.githubusercontent.com/deckerweb/redirect-draft-content/main/assets-github/banner-en-1280x640.png)
 
 Redirect Draft Content temporarily redirects draft requests to a published destination or a custom URL. This small Manage Content helper preserves editor previews and provides individual targets per content type.
 
@@ -25,4 +23,4 @@ An existing plugin installation can be replaced using the ZIP. The `rdc_targets`
 - Custom HTTP/HTTPS URLs and live previews.
 - Exact route matching and protection against known draft loops.
 - English, German and formal German.
-- deckerweb Library 0.6.2 and deckerweb Updater 2.1.0.
+- deckerweb Library 0.7.0 and deckerweb Updater 2.1.0.

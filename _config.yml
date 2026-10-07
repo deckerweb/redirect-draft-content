@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Redirect Draft Content
-description: Temporary draft redirects · Temporäre Entwurfsweiterleitungen
+description: Your content takes a short break. · Deine Inhalte machen kurz Pause.
 exclude:
   - includes
   - languages

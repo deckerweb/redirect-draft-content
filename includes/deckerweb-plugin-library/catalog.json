@@ -18,7 +18,7 @@
       "dependencies": [],
       "github_stars": 1,
       "stars_checked_at": "2026-10-07",
-      "icon_label": "BA",
+      "icon_label": "BAS",
       "icon_background": "#edf3f0",
       "icon": "assets/icons/brand-admin-schemes.png",
       "published_at": "2026-10-06T15:59:00Z"
@@ -49,7 +49,7 @@
       "github_stars": 3,
       "stars_checked_at": "2026-10-07",
       "icon": "assets/icons/breakdance-quicknav.png",
-      "icon_label": "QN",
+      "icon_label": "BDQ",
       "icon_background": "#f0f3f6",
       "series": "quicknav",
       "published_at": "2025-03-08T18:46:03Z",
@@ -107,7 +107,7 @@
       "github_stars": 7,
       "stars_checked_at": "2026-10-07",
       "icon": "assets/icons/bricks-quicknav.png",
-      "icon_label": "QN",
+      "icon_label": "BXQ",
       "icon_background": "#f0f3f6",
       "series": "quicknav",
       "published_at": "2025-05-12T14:21:10Z",
@@ -140,7 +140,7 @@
       ],
       "github_stars": 1,
       "stars_checked_at": "2026-10-07",
-      "icon_label": "OQ",
+      "icon_label": "OQN",
       "icon_background": "#eef1f8",
       "series": "quicknav",
       "published_at": "2025-03-09T06:40:49Z",
@@ -174,7 +174,7 @@
       "github_stars": 1,
       "stars_checked_at": "2026-10-07",
       "icon": "assets/icons/advanced-scripts-quicknav.png",
-      "icon_label": "QN",
+      "icon_label": "ASQ",
       "icon_background": "#f0f3f6",
       "series": "quicknav",
       "published_at": "2026-10-01T19:23:21Z",
@@ -226,7 +226,7 @@
       "dependencies": [],
       "github_stars": 4,
       "stars_checked_at": "2026-10-07",
-      "icon_label": "SU",
+      "icon_label": "SIU",
       "icon_background": "#f4f0e9",
       "published_at": "2025-03-28T12:48:06Z",
       "series": "builder",
@@ -253,7 +253,7 @@
       "github_stars": 3,
       "stars_checked_at": "2026-10-07",
       "icon": "assets/icons/builder-list-pages.png",
-      "icon_label": "QN",
+      "icon_label": "BLP",
       "icon_background": "#f0f3f6",
       "series": "builder",
       "published_at": "2026-10-01T16:35:09Z",
@@ -281,7 +281,7 @@
       "requires_multisite": false,
       "network_only": false,
       "icon": "assets/icons/multisite-toolbar-additions.png",
-      "icon_label": "MS",
+      "icon_label": "MTA",
       "icon_background": "#edf2f5",
       "series": "quicknav",
       "published_at": "2026-10-07T09:41:59Z",
@@ -307,7 +307,7 @@
       "description": "Multiple authors without user accounts, with profiles, local photos and flexible shortcodes for your builder or theme.",
       "description_de": "Mehrere Autoren ohne Benutzerkonten: mit Profilen, lokalen Fotos und flexiblen Shortcodes für Builder oder Theme.",
       "icon": "assets/icons/post-author-taxonomy.png",
-      "icon_label": "PA",
+      "icon_label": "PAT",
       "icon_background": "#edf2f5",
       "published_at": "2026-10-01T14:20:18Z",
       "series": "builder",
@@ -361,7 +361,7 @@
       "description": "Dynamic helpers for copyright, dates, links and reusable content, with searchable help and a shortcode generator.",
       "description_de": "Dynamische Helfer für Copyright, Datum, Links und wiederverwendbare Inhalte – mit durchsuchbarer Hilfe und Shortcode-Generator.",
       "icon": "assets/icons/builder-shortcode-extras.png",
-      "icon_label": "SC",
+      "icon_label": "BSE",
       "icon_background": "#edf2f5",
       "series": "builder",
       "published_at": "2026-10-01T16:43:28Z",
@@ -387,7 +387,7 @@
       "description": "Move selected plugin settings from top-level menus into suitable submenus for a clearer WordPress admin.",
       "description_de": "Ausgewählte Plugin-Einstellungen aus Hauptmenüs in passende Untermenüs verschieben – für einen übersichtlicheren WordPress-Admin.",
       "icon": "assets/icons/plugin-submenu-mover.png",
-      "icon_label": "PM",
+      "icon_label": "PSM",
       "icon_background": "#edf2f5",
       "published_at": "2025-03-28T10:43:24Z",
       "series": "builder",
@@ -455,7 +455,8 @@
       "requires_php": "7.4",
       "github_stars": 2,
       "stars_checked_at": "2026-10-07",
-      "published_at": "2025-04-04T10:03:03Z"
+      "published_at": "2025-04-04T10:03:03Z",
+      "icon_label": "PCL"
     },
     {
       "approved": true,
@@ -486,7 +487,8 @@
       "requires_php": "7.4",
       "github_stars": 1,
       "stars_checked_at": "2026-10-07",
-      "published_at": "2025-04-05T09:27:45Z"
+      "published_at": "2025-04-05T09:27:45Z",
+      "icon_label": "PFL"
     },
     {
       "approved": true,
@@ -512,7 +514,7 @@
       "published_at": "2026-10-06T20:57:45Z"
     }
   ],
-  "catalog_revision": "2026-10-07.2",
-  "generated_at": "2026-10-07T10:18:29Z",
+  "catalog_revision": "2026-10-07.3",
+  "generated_at": "2026-10-07T13:14:57Z",
   "requires_library": "0.1.0"
 }

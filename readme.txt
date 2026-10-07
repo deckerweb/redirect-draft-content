@@ -17,7 +17,7 @@ Redirect Draft Content temporarily redirects draft requests to a published desti
 - Custom HTTP/HTTPS URLs and live previews.
 - Exact route matching and protection against known draft loops.
 - English, German and formal German.
-- deckerweb Library 0.6.2 and deckerweb Updater 2.1.0.
+- deckerweb Library 0.7.0 and deckerweb Updater 2.1.0.
 
 == Installation ==
 1. Disable the existing Redirect Draft Content snippet.
@@ -53,4 +53,7 @@ Your rdc_targets settings and all content remain. Repository-specific updater ca
 = 0.9.0 =
 * New: Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.
 * Improved: Search published targets, pause each content type and keep existing site settings.
+* Improved: Local Shade artwork, a compact settings header and deckerweb Library 0.7.0.
 * Fixed: Exact route matching, validated targets and protection against self-redirects.
+= 0.1.0–0.8.0 =
+* Misc: Development and test versions; not publicly released.

@@ -1,6 +1,6 @@
 {
   "protocol": 2,
-  "version": "0.6.2",
+  "version": "0.7.0",
   "requires_php": "8.0",
   "requires_wp": "6.4",
   "files": [
@@ -58,21 +58,21 @@
     "assets/icons/purify-wpforms-lite.png": "81dccb37abd39cb981b7a05313320751eb9de08a2b8aabafb3f24e5fa1f5ed59",
     "assets/icons/quick-edit-featured-image.png": "fb38c5cba2b101f8cacdc10b4c45a3ec36b9762ad5c843e8096ee8207b20c9be",
     "assets/library-icon.svg": "35b42e0e969ed17d8d64a8e8802ce6289367964e8b165f387cb9c3bab23e387b",
-    "assets/library.css": "c3e8bd046dbbe0a2ab5804bb11acb5aa0da7fc1b844a0accd3b373137098cf29",
+    "assets/library.css": "b31c665e6264f9188145f8e292afe01225dbeb55765682ea29cf36b1c1bf9555",
     "assets/library.js": "d35badf21180ecd375d397fed1d1d00555973afe65275b55b02bd5cbb5ce7893",
     "bootstrap.php": "3b2d07045a25304a8770ef6bfb2e989b6a6a356627065df7636e33f0ceec1965",
-    "catalog.json": "e3633b573607863b2588723afd1b9ee46b3331f2ff7d52d383284495aac52cc4",
-    "history.json": "53d0f6d1fc27f81ec8f4164515a04e145607e348067ddf043671e5774a8be0a7",
-    "languages/de_DE.mo": "fb072451814674dda4c0e9c15b3778fe3b719a8249a5745216d529fe70e1dbdb",
-    "languages/de_DE_formal.mo": "47c98543a0f922b0b84ab1c7da12ab7c6c738a2943c161afe09bb914fdf3b466",
+    "catalog.json": "d67a4d068c8dc2b3cd98777b2ff0e794c94284bd9106fb84de5d284398cc9b97",
+    "history.json": "c04d54096ad31f6081c89aca0d7c77a47c2b4a02d27217e4e7335be26cb25435",
+    "languages/de_DE.mo": "f340b7a6ad449cdd3ecfdcae857e3b11966e2cc54543c1fbe0955f627cb3afb4",
+    "languages/de_DE_formal.mo": "df811312424e77acf09215ff3b08da10197a5c68693d2fdf143f0e72c65dec4e",
     "lifecycle.php": "50067438084fa951de371603a650da0ea2b66bb82c20b49629667b05c459f443",
-    "runtime.php": "4e8194ebd466b1dee17292ea7afacc89e97096317f2f59db94305af20072ea63",
-    "src/Catalog.php": "d9b0b53bf175d6d5e12121a4f0b6c3a4165c3548915199cd7b4925997d830a6b",
-    "src/History.php": "48b01c65497cf7e1dbde0353c59551f2ff87f59336c7bef68a628c8bcc8179f1",
-    "src/I18n.php": "68fe5ff0daffbf7040bec290685f9200dd222f2dc0fabdb563d5cac342715270",
-    "src/Library.php": "2fd3e47269e30ed0784f1eda973e91e65758cd72c47ccc555c3fd83bc220e8e2",
-    "src/Package.php": "3d23fcdb6409022f3dd443e68a18ec71c19f1d8bf738cdfa8d530e25b6ae3564",
-    "src/Requirements.php": "4698b22265d771b9e113589c4ef57d4ead09313b73871c971ff677cbcea99857",
-    "version.php": "4fd40d26b386a28a5ce4ee9363be065dc8f01dca0f6f6785c35595973956d52a"
+    "runtime.php": "30587e95aef843eea978d316850d20fa37ee6d83ec4d9d0b3edca30d676ac5ec",
+    "src/Catalog.php": "7e703bb5f640c5dfeb9fd5702805a7097736a0b072227fe1f54728cbc4e36cdb",
+    "src/History.php": "7d2a80fed002ff658d0b3abb290ec26ae759a1a744a897ef5446f406f5445e07",
+    "src/I18n.php": "6830a1ba39ffde940d92a812f4846b46fe03f763b9835311ff8df9f97ddbe48b",
+    "src/Library.php": "737de623ee3c07d279049719440ba1bca8aa55e297f06c3fab2124a0d075adff",
+    "src/Package.php": "95c0b1d197fc1879b416363e51e384797ef0c0d93d54c2c6e8a92cd4bdc61c35",
+    "src/Requirements.php": "b6da4a3ce72604684ca6f03426f98244e13d0b3169b872c1b6239eaebf75b984",
+    "version.php": "ab4e6d89c926557e1792db6ac3c81ff22c1f09d11247c27a0f45a1fd0a4bc144"
   }
 }

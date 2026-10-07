@@ -19,7 +19,7 @@ for lang,name in [('en','README.md'),('de','README-de.md')]:
  heading='Änderungsverlauf'if de else'Changelog'
  releases=[]
  for release in history:
-  rows=['### '+release['version']+' · '+release['date'],'']
+  rows=['### '+release['version']+(' · '+release['date'] if release.get('date') else ''),'']
   for key,items in release['changes'].items():
    for item in items:rows.append('- **'+(translations[key]if de else key)+'** '+(translations[item]if de else item))
   releases.append('\n'.join(rows))

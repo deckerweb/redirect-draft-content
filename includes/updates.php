@@ -79,7 +79,20 @@ final class GitHubUpdates {
 	 *
 	 * @return array<string,array<string,string>> WordPress icon and banner maps.
 	 */
-	public function artwork(): array { return array(); }
+	public function artwork(): array {
+		$language = str_starts_with( determine_locale(), 'de' ) ? 'de' : 'en';
+		return array(
+			'icons' => array(
+				'svg' => plugins_url( 'assets/brand/icon.svg', DDW_RDC_FILE ),
+				'1x' => plugins_url( 'assets/brand/icon-128x128.png', DDW_RDC_FILE ),
+				'2x' => plugins_url( 'assets/brand/icon-256x256.png', DDW_RDC_FILE ),
+			),
+			'banners' => array(
+				'low' => plugins_url( 'assets/brand/banner-' . $language . '-772x250.png', DDW_RDC_FILE ),
+				'high' => plugins_url( 'assets/brand/banner-' . $language . '-1544x500.png', DDW_RDC_FILE ),
+			),
+		);
+	}
 
 	/**
 	 * Bound only this repository's metadata requests; do not change package downloads.

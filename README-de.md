@@ -1,8 +1,6 @@
 # Redirect Draft Content
 
-![Redirect Draft Content](assets-github/drafts/a-route-banner-de.png)
-
-Grafikentwurf A – die endgültige Variante steht noch aus.
+![Redirect Draft Content](assets-github/banner-de-1280x640.png)
 
 ## Kurzvorstellung
 
@@ -26,7 +24,7 @@ Inhalt: [Auf einen Blick](#auf-einen-blick) · [Erste Schritte](#erste-schritte)
 - Eigene HTTP-/HTTPS-URLs und Live-Vorschau.
 - Exakter Pfadabgleich und Schutz vor bekannten Entwurfsschleifen.
 - Englisch, Deutsch und Deutsch (Sie).
-- deckerweb Library 0.6.2 und deckerweb Updater 2.1.0.
+- deckerweb Library 0.7.0 und deckerweb Updater 2.1.0.
 
 ## Erste Schritte
 
@@ -85,7 +83,12 @@ Die Einstellungen in rdc_targets und alle Inhalte bleiben erhalten. Repositorybe
 
 - **Neu:** Temporäre Entwurfsweiterleitungen für Beiträge, Seiten und öffentlich aufrufbare eigene Inhaltstypen, mit individuellen Zielen und Live-Vorschau.
 - **Verbessert:** Veröffentlichte Ziele suchen, Weiterleitungen je Inhaltstyp pausieren und bestehende Website-Einstellungen behalten.
+- **Verbessert:** Lokale Shade-Grafiken, kompakter Settings-Header und deckerweb Library 0.7.0.
 - **Behoben:** Exakter URL-Abgleich, geprüfte Ziele und Schutz vor Weiterleitungen auf dieselbe URL.
+
+### 0.1.0–0.8.0
+
+- **Sonstiges:** Entwicklungs- und Testversionen, unveröffentlicht.
 
 ## Projekt und Unterstützung
 
@@ -93,4 +96,4 @@ Entwicklung und Herausgabe: David Decker – DECKERWEB. Dieses Plugin ist ein kl
 
 [Fehler melden](https://github.com/deckerweb/redirect-draft-content/issues) · [Fragen](https://github.com/deckerweb/redirect-draft-content/discussions) · [Sicherheit](SECURITY-de.md) · [Ko-fi](https://ko-fi.com/deckerweb) · [Buy Me a Coffee](https://buymeacoffee.com/daveshine) · [PayPal](https://paypal.me/deckerweb)
 
-Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Die gemeinsame Library und der Updater stammen von David Decker – DECKERWEB und werden lokal unter derselben Lizenz mitgeliefert. Die Ausgangsfunktionen stammen aus dem vom Plugin-Autor bereitgestellten Helfer-Snippet. SVG-Grafiken sind eigene Entwürfe unter GPL-2.0-or-later; Schriftarten werden nicht mitgeliefert.
+Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Die gemeinsame Library und der Updater stammen von David Decker – DECKERWEB und werden lokal unter derselben Lizenz mitgeliefert. Die Ausgangsfunktionen stammen aus dem vom Plugin-Autor bereitgestellten Helfer-Snippet. SVG-Grafiken sind eigene Werke unter GPL-2.0-or-later; Schriftarten werden nicht mitgeliefert.

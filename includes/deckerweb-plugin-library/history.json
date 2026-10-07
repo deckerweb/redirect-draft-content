@@ -1,12 +1,16 @@
 [
   {
-    "version": "0.6.2",
+    "version": "0.7.0",
     "date": "2026-10-07",
     "changes": {
       "Improved": [
         {
           "en": "Install and activate catalog plugins directly in their cards, with inline status and errors.",
           "de": "Katalogplugins direkt in ihrer Karte installieren und aktivieren, mit Status und Fehlern an Ort und Stelle."
+        },
+        {
+          "en": "Use the approved three-character fallback labels when no original icon is available.",
+          "de": "Die freigegebenen dreistelligen Fallback-Kürzel verwenden, wenn kein Originalicon verfügbar ist."
         }
       ]
     }
