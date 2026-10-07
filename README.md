@@ -41,11 +41,11 @@ An existing plugin installation can be replaced using the ZIP. The `rdc_targets`
 
 ### Destinations and preview
 
-Yes. An administrator can configure a complete HTTP or HTTPS URL for each content type. Credentials and unsafe protocols are rejected. Preview the destination before saving. Unpublished or password-protected target items are not used. External redirect chains cannot be checked; choose a directly accessible destination.
+An administrator can configure a complete HTTP or HTTPS URL for each content type. Credentials and unsafe protocols are rejected. Preview the destination before saving. Unpublished or password-protected target items are not used. External redirect chains cannot be checked; choose a directly accessible destination.
 
 ### Scope and data
 
-Yes. Configure destinations in Settings → Draft Redirect on each site. Network activation loads the helper across sites without copying settings or adding network-wide redirects. New sites start without destinations. There is no telemetry. Update checks contact GitHub for technical release information; the optional online Library catalog starts disabled. Redirect processing requires no external request.
+Configure destinations in Settings → Draft Redirect on each site. Network activation loads the helper across sites without copying settings or adding network-wide redirects. New sites start without destinations. There is no telemetry. Update checks contact GitHub for technical release information; the optional online Library catalog starts disabled. Redirect processing requires no external request.
 
 ## FAQ
 

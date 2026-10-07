@@ -41,11 +41,11 @@ Bei einer bestehenden Plugin-Installation kann das ZIP die bisherige Fassung ers
 
 ### Ziele und Vorschau
 
-Ja. Je Inhaltstyp lässt sich eine vollständige HTTP- oder HTTPS-URL einstellen. Zugangsdaten in URLs und unsichere Protokolle werden abgewiesen. Das Ziel lässt sich vor dem Speichern prüfen. Noch nicht veröffentlichte oder passwortgeschützte Zielinhalte werden nicht verwendet. Externe Weiterleitungsketten können nicht geprüft werden; das Ziel sollte direkt erreichbar sein.
+Je Inhaltstyp lässt sich eine vollständige HTTP- oder HTTPS-URL einstellen. Zugangsdaten in URLs und unsichere Protokolle werden abgewiesen. Das Ziel lässt sich vor dem Speichern prüfen. Noch nicht veröffentlichte oder passwortgeschützte Zielinhalte werden nicht verwendet. Externe Weiterleitungsketten können nicht geprüft werden; das Ziel sollte direkt erreichbar sein.
 
 ### Umfang und Daten
 
-Ja. Ziele werden je Website unter Einstellungen → Entwurfsweiterleitung festgelegt. Die Netzwerkaktivierung kopiert keine Einstellungen und erzeugt keine netzwerkweiten Weiterleitungen. Neue Websites starten ohne Ziele. Es gibt keine Telemetrie. Nur Update-Prüfungen senden technische Anfragen an GitHub; der optionale Online-Katalog der Library ist zunächst ausgeschaltet. Die Weiterleitung selbst benötigt keine externe Anfrage.
+Ziele werden je Website unter Einstellungen → Entwurfsweiterleitung festgelegt. Die Netzwerkaktivierung kopiert keine Einstellungen und erzeugt keine netzwerkweiten Weiterleitungen. Neue Websites starten ohne Ziele. Es gibt keine Telemetrie. Nur Update-Prüfungen senden technische Anfragen an GitHub; der optionale Online-Katalog der Library ist zunächst ausgeschaltet. Die Weiterleitung selbst benötigt keine externe Anfrage.
 
 ## FAQ
 

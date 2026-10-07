@@ -1,5 +1,9 @@
 # Redirect Draft Content
 
+![Redirect Draft Content](https://raw.githubusercontent.com/deckerweb/redirect-draft-content/main/assets-github/drafts/a-route-banner-en.png)
+
+Artwork draft A
+
 Redirect Draft Content temporarily redirects draft requests to a published destination or a custom URL. This small Manage Content helper preserves editor previews and provides individual targets per content type.
 
 [Deutsch](../README-de.md)

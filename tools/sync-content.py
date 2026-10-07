@@ -28,7 +28,9 @@ for lang,name in [('en','README.md'),('de','README-de.md')]:
  save(path,text)
  fpath=root/'docs'/('FAQ-Deutsch.md'if de else'FAQ-English.md')
  ftext=fpath.read_text();marker='## Einstieg und Alltag'if de else'## Getting started and daily use'
- save(fpath,ftext.split(marker)[0]+marker+'\n\n'+questions+'\n')
+ groups=[('Einstieg und Alltag' if de else 'Getting started and daily use',faq[:4]),('Umstellung und Multisite' if de else 'Migration and Multisite',faq[4:6]),('Daten und Deinstallation' if de else 'Data and uninstall',faq[6:])]
+ grouped='\n\n'.join('## '+title+'\n\n'+'\n\n'.join(f"### {entry[lang]['question']}\n\n{entry[lang]['answer']}"for entry in entries)for title,entries in groups)
+ save(fpath,ftext.split(marker)[0]+grouped+'\n')
  hpath=root/'docs'/('Changelog-Deutsch.md'if de else'Changelog-English.md')
  htext=hpath.read_text();save(hpath,htext.split('### ')[0]+rendered+'\n')
  wpath=root/('readme-de.txt'if de else'readme.txt');wtext=wpath.read_text();wtext=wtext.split('== Frequently Asked Questions ==')[0]+'== Frequently Asked Questions ==\n'+'\n\n'.join('= '+entry[lang]['question']+' =\n'+entry[lang]['answer']for entry in faq)+'\n\n== Changelog ==\n'

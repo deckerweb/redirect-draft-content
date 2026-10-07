@@ -1,5 +1,9 @@
 # Redirect Draft Content
 
+![Redirect Draft Content](https://raw.githubusercontent.com/deckerweb/redirect-draft-content/main/assets-github/drafts/a-route-banner-de.png)
+
+Grafikentwurf A
+
 Redirect Draft Content leitet Aufrufe von Entwürfen vorübergehend auf ein veröffentlichtes Ziel oder eine eigene URL weiter. Das kleine Helfer-Plugin aus der Serie Manage Content erhält die Vorschau für Redakteure und bietet individuelle Ziele je Inhaltstyp.
 
 [English](../README.md)

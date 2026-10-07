@@ -20,6 +20,8 @@ Yes. Users with edit_posts or permission to edit the requested draft are exempt.
 
 Yes. An administrator can configure a complete HTTP or HTTPS URL for each content type. Credentials and unsafe protocols are rejected. Preview the destination before saving.
 
+## Migration and Multisite
+
 ### How do I replace the existing snippet?
 
 Disable the old snippet before activating this plugin. The existing rdc_targets option is read directly, including settings for temporarily inactive content types. Existing rows remain enabled until paused.
@@ -27,6 +29,8 @@ Disable the old snippet before activating this plugin. The existing rdc_targets 
 ### Does it work on Multisite?
 
 Yes. Configure destinations in Settings → Draft Redirect on each site. Network activation loads the helper across sites without copying settings or adding network-wide redirects. New sites start without destinations.
+
+## Data and uninstall
 
 ### What happens on uninstall?
 

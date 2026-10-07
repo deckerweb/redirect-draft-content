@@ -20,6 +20,8 @@ Ja. Benutzer mit edit_posts oder der Berechtigung zum Bearbeiten des aufgerufene
 
 Ja. Je Inhaltstyp lässt sich eine vollständige HTTP- oder HTTPS-URL einstellen. Zugangsdaten in URLs und unsichere Protokolle werden abgewiesen. Das Ziel lässt sich vor dem Speichern prüfen.
 
+## Umstellung und Multisite
+
 ### Wie ersetze ich das bestehende Snippet?
 
 Deaktiviere das alte Snippet vor der Plugin-Aktivierung. Die bestehende Option rdc_targets wird direkt übernommen, auch für vorübergehend inaktive Inhaltstypen. Vorhandene Regeln bleiben aktiv, bis sie pausiert werden.
@@ -27,6 +29,8 @@ Deaktiviere das alte Snippet vor der Plugin-Aktivierung. Die bestehende Option r
 ### Funktioniert das Plugin in Multisite?
 
 Ja. Ziele werden je Website unter Einstellungen → Entwurfsweiterleitung festgelegt. Die Netzwerkaktivierung kopiert keine Einstellungen und erzeugt keine netzwerkweiten Weiterleitungen. Neue Websites starten ohne Ziele.
+
+## Daten und Deinstallation
 
 ### Was passiert bei der Deinstallation?
 
