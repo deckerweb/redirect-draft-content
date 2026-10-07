@@ -1,0 +1,9 @@
+# Redirect Draft Content Changelog
+
+[English](Changelog-English.md) · [Deutsch](Changelog-Deutsch.md)
+
+### 0.9.0 · 2026-10-07
+
+- **New:** Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.
+- **Improved:** Search published targets, pause each content type and keep existing site settings.
+- **Fixed:** Exact route matching, validated targets and protection against self-redirects.

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: Redirect Draft Content 0.9.0\nLanguage: de_DE_formal\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%1$s (ID: %2$d)"
+msgstr "%1$s (ID: %2$d)"
+
+msgid "(Untitled)"
+msgstr "(Ohne Titel)"
+
+msgid "Changelog"
+msgstr "Änderungsverlauf"
+
+msgid "Choose an existing, published item"
+msgstr "Vorhandenen, veröffentlichten Inhalt wählen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Could not access the update filesystem."
+msgstr "Auf das Dateisystem für das Update konnte nicht zugegriffen werden."
+
+msgid "Could not create the update download file."
+msgstr "Die Datei für den Update-Download konnte nicht erstellt werden."
+
+msgid "Could not prepare the GitHub release package."
+msgstr "Das GitHub-Release-Paket konnte nicht vorbereitet werden."
+
+msgid "Custom URL"
+msgstr "Eigene URL"
+
+msgid "Define, for each content type, where requests for content in draft status should be redirected to via a 302 redirect – either to an existing published item or to a custom URL."
+msgstr "Legen Sie für jeden Inhaltstyp fest, wohin Aufrufe von Inhalten im Entwurfsstatus per 302-Weiterleitung umgeleitet werden sollen – entweder auf einen vorhandenen, veröffentlichten Inhalt oder auf eine eigene URL."
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Draft Redirect"
+msgstr "Entwurfsweiterleitung"
+
+msgid "Enable redirects for this content type"
+msgstr "Weiterleitungen für diesen Inhaltstyp aktivieren"
+
+msgid "Exact route matching, validated targets and protection against self-redirects."
+msgstr "Exakter URL-Abgleich, geprüfte Ziele und Schutz vor Weiterleitungen auf dieselbe URL."
+
+msgid "External URLs are allowed. Drafts remain available to editors and in previews. Redirects use HTTP 302 and are not cached."
+msgstr "Externe URLs sind erlaubt. Entwürfe bleiben für Redakteure und in der Vorschau verfügbar. Weiterleitungen verwenden HTTP 302 und werden nicht zwischengespeichert."
+
+msgid "Fixed:"
+msgstr "Behoben:"
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr "Der GitHub-Release enthält nicht die Hauptdatei des Plugins."
+
+msgid "Improved:"
+msgstr "Verbessert:"
+
+msgid "Invalid GitHub repository URL."
+msgstr "Ungültige GitHub-Repository-URL."
+
+msgid "Invalid authentication provider."
+msgstr "Ungültiger Authentifizierungsanbieter."
+
+msgid "Misc:"
+msgstr "Sonstiges:"
+
+msgid "More results"
+msgstr "Weitere Ergebnisse"
+
+msgid "New:"
+msgstr "Neu:"
+
+msgid "No published content of this type exists yet."
+msgstr "Keine veröffentlichten Inhalte dieses Typs vorhanden."
+
+msgid "Open target URL in new tab ↗"
+msgstr "Ziel-URL in neuem Tab öffnen ↗"
+
+msgid "Please select a target or enter a URL first."
+msgstr "Bitte zuerst ein Ziel auswählen oder eine URL eingeben."
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Private mode must be boolean."
+msgstr "Der Private-Modus muss ein boolescher Wert sein."
+
+msgid "Redirect Draft Content updates require a newer deckerweb Updater. Update the other deckerweb plugins or install the Redirect Draft Content ZIP manually."
+msgstr "Updates für Redirect Draft Content benötigen einen neueren deckerweb Updater. Aktualisieren Sie die anderen deckerweb Plugins oder installieren Sie das ZIP von Redirect Draft Content manuell."
+
+msgid "Redirects"
+msgstr "Weiterleitungen"
+
+msgid "Results loaded. Select a target below."
+msgstr "Ergebnisse geladen. Wählen Sie unten ein Ziel aus."
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Search failed. Please try again."
+msgstr "Die Suche ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+
+msgid "Search published content"
+msgstr "Veröffentlichte Inhalte suchen"
+
+msgid "Search published targets, pause each content type and keep existing site settings."
+msgstr "Veröffentlichte Ziele suchen, Weiterleitungen je Inhaltstyp pausieren und bestehende Website-Einstellungen behalten."
+
+msgid "Searching…"
+msgstr "Suche läuft…"
+
+msgid "See the release on GitHub."
+msgstr "Sehen Sie sich den Release auf GitHub an."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Support this plugin"
+msgstr "Dieses Plugin unterstützen"
+
+msgid "Target Content"
+msgstr "Ziel-Inhalt"
+
+msgid "Target Mode"
+msgstr "Ziel-Modus"
+
+msgid "Temporarily redirect draft content to a published item or a custom URL, with individual targets for posts, pages and public custom post types."
+msgstr "Entwürfe vorübergehend auf einen veröffentlichten Inhalt oder eine eigene URL weiterleiten, mit individuellen Zielen für Beiträge, Seiten und öffentliche eigene Inhaltstypen."
+
+msgid "Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews."
+msgstr "Temporäre Entwurfsweiterleitungen für Beiträge, Seiten und öffentlich aufrufbare eigene Inhaltstypen, mit individuellen Zielen und Live-Vorschau."
+
+msgid "Temporary draft redirects with individual destinations per content type."
+msgstr "Temporäre Entwurfsweiterleitungen mit individuellen Zielen je Inhaltstyp."
+
+msgid "The GitHub package could not be prepared. The installed version has been kept."
+msgstr "Das GitHub-Paket konnte nicht vorbereitet werden. Die installierte Version wurde beibehalten."
+
+msgid "The GitHub package does not contain the Redirect Draft Content plugin file."
+msgstr "Das GitHub-Paket enthält nicht die Plugin-Datei von Redirect Draft Content."
+
+msgid "The package identity or version does not match a newer Redirect Draft Content release."
+msgstr "Das Paket oder seine Version passt nicht zu einem neueren Release von Redirect Draft Content."
+
+msgid "The package version differs from the offered update. Please check for updates again."
+msgstr "Die Paketversion weicht vom angebotenen Update ab. Bitte suchen Sie erneut nach Updates."
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr "Das Plugin muss in einem Verzeichnis mit einem festen Slug installiert sein."
+
+msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
+msgstr "Das private Update konnte nicht autorisiert werden. Prüfen Sie die Repository-Zugangsdaten und suchen Sie erneut nach Updates."
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr "Der Download des privaten Updates ist fehlgeschlagen. Prüfen Sie die Zugangsdaten und versuchen Sie es erneut."
+
+msgid "The selected target is no longer publicly available. Please select another target."
+msgstr "Das ausgewählte Ziel ist nicht mehr öffentlich verfügbar. Bitte wählen Sie ein anderes Ziel."
+
+msgid "The update filesystem is unavailable. Please try again."
+msgstr "Das Dateisystem für das Update ist nicht verfügbar. Bitte versuchen Sie es erneut."
+
+msgid "The update package could not be checked."
+msgstr "Das Update-Paket konnte nicht geprüft werden."
+
+msgid "The update package has missing or invalid WordPress/PHP requirements."
+msgstr "Die WordPress-/PHP-Voraussetzungen im Update-Paket fehlen oder sind ungültig."
+
+msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
+msgstr "Dieser Release benötigt eine neuere WordPress- oder PHP-Version. Die installierte Version wurde beibehalten."
+
+msgid "Use a complete HTTP or HTTPS URL without credentials."
+msgstr "Verwenden Sie eine vollständige HTTP- oder HTTPS-URL ohne Zugangsdaten."
+
+msgid "Use a custom URL"
+msgstr "Eigene URL verwenden"
+
+msgid "— Please select —"
+msgstr "— Bitte auswählen —"

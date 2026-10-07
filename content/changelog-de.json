@@ -1,0 +1,8 @@
+{
+  "New:": "Neu:",
+  "Improved:": "Verbessert:",
+  "Fixed:": "Behoben:",
+  "Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.": "Temporäre Entwurfsweiterleitungen für Beiträge, Seiten und öffentlich aufrufbare eigene Inhaltstypen, mit individuellen Zielen und Live-Vorschau.",
+  "Search published targets, pause each content type and keep existing site settings.": "Veröffentlichte Ziele suchen, Weiterleitungen je Inhaltstyp pausieren und bestehende Website-Einstellungen behalten.",
+  "Exact route matching, validated targets and protection against self-redirects.": "Exakter URL-Abgleich, geprüfte Ziele und Schutz vor Weiterleitungen auf dieselbe URL."
+}

@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+title: Redirect Draft Content
+description: Temporary draft redirects · Temporäre Entwurfsweiterleitungen
+exclude:
+  - includes
+  - languages
+  - tests
+  - tools

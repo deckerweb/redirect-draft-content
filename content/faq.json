@@ -1,0 +1,72 @@
+[
+  {
+    "en": {
+      "question": "Does this permanently move content?",
+      "answer": "No. Redirects use HTTP 302. Search engines decide how to process temporary redirects; retaining an indexed URL is not guaranteed."
+    },
+    "de": {
+      "question": "Werden Inhalte dauerhaft verschoben?",
+      "answer": "Nein. Die Weiterleitungen verwenden HTTP 302. Suchmaschinen entscheiden selbst, wie sie temporäre Weiterleitungen verarbeiten. Der Verbleib einer URL im Index ist nicht garantiert."
+    }
+  },
+  {
+    "en": {
+      "question": "Which content types are supported?",
+      "answer": "Posts, pages and publicly viewable custom post types, including hierarchical paths. Attachments and nonpublic types are excluded."
+    },
+    "de": {
+      "question": "Welche Inhaltstypen werden unterstützt?",
+      "answer": "Beiträge, Seiten und öffentlich aufrufbare eigene Inhaltstypen, einschließlich verschachtelter Pfade. Anhänge und nicht öffentliche Inhaltstypen sind ausgeschlossen."
+    }
+  },
+  {
+    "en": {
+      "question": "Can editors preview drafts?",
+      "answer": "Yes. Users with edit_posts or permission to edit the requested draft are exempt. Preview, feed, REST, AJAX and write requests are excluded."
+    },
+    "de": {
+      "question": "Können Redakteure Entwürfe ansehen?",
+      "answer": "Ja. Benutzer mit edit_posts oder der Berechtigung zum Bearbeiten des aufgerufenen Entwurfs sind ausgenommen. Vorschau, Feeds, REST, AJAX und schreibende Aufrufe bleiben ebenfalls ausgenommen."
+    }
+  },
+  {
+    "en": {
+      "question": "Can I use an external URL?",
+      "answer": "Yes. An administrator can configure a complete HTTP or HTTPS URL for each content type. Credentials and unsafe protocols are rejected. Preview the destination before saving."
+    },
+    "de": {
+      "question": "Kann ich eine externe URL verwenden?",
+      "answer": "Ja. Je Inhaltstyp lässt sich eine vollständige HTTP- oder HTTPS-URL einstellen. Zugangsdaten in URLs und unsichere Protokolle werden abgewiesen. Das Ziel lässt sich vor dem Speichern prüfen."
+    }
+  },
+  {
+    "en": {
+      "question": "How do I replace the existing snippet?",
+      "answer": "Disable the old snippet before activating this plugin. The existing rdc_targets option is read directly, including settings for temporarily inactive content types. Existing rows remain enabled until paused."
+    },
+    "de": {
+      "question": "Wie ersetze ich das bestehende Snippet?",
+      "answer": "Deaktiviere das alte Snippet vor der Plugin-Aktivierung. Die bestehende Option rdc_targets wird direkt übernommen, auch für vorübergehend inaktive Inhaltstypen. Vorhandene Regeln bleiben aktiv, bis sie pausiert werden."
+    }
+  },
+  {
+    "en": {
+      "question": "Does it work on Multisite?",
+      "answer": "Yes. Configure destinations in Settings → Draft Redirect on each site. Network activation loads the helper across sites without copying settings or adding network-wide redirects. New sites start without destinations."
+    },
+    "de": {
+      "question": "Funktioniert das Plugin in Multisite?",
+      "answer": "Ja. Ziele werden je Website unter Einstellungen → Entwurfsweiterleitung festgelegt. Die Netzwerkaktivierung kopiert keine Einstellungen und erzeugt keine netzwerkweiten Weiterleitungen. Neue Websites starten ohne Ziele."
+    }
+  },
+  {
+    "en": {
+      "question": "What happens on uninstall?",
+      "answer": "Your rdc_targets settings and all content remain. Repository-specific updater caches are removed. Shared Library cleanup respects other installed hosts; its optional settings deletion only applies to the last host."
+    },
+    "de": {
+      "question": "Was passiert bei der Deinstallation?",
+      "answer": "Die Einstellungen in rdc_targets und alle Inhalte bleiben erhalten. Repositorybezogene Update-Caches werden entfernt. Die gemeinsame Library berücksichtigt andere installierte Host-Plugins; ihre optionale Einstellungslöschung greift nur beim letzten Host."
+    }
+  }
+]

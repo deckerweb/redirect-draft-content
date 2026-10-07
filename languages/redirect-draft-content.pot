@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "%1$s (ID: %2$d)"
+msgstr ""
+
+msgid "(Untitled)"
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Choose an existing, published item"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Could not access the update filesystem."
+msgstr ""
+
+msgid "Could not create the update download file."
+msgstr ""
+
+msgid "Could not prepare the GitHub release package."
+msgstr ""
+
+msgid "Custom URL"
+msgstr ""
+
+msgid "Define, for each content type, where requests for content in draft status should be redirected to via a 302 redirect – either to an existing published item or to a custom URL."
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Draft Redirect"
+msgstr ""
+
+msgid "Enable redirects for this content type"
+msgstr ""
+
+msgid "Exact route matching, validated targets and protection against self-redirects."
+msgstr ""
+
+msgid "External URLs are allowed. Drafts remain available to editors and in previews. Redirects use HTTP 302 and are not cached."
+msgstr ""
+
+msgid "Fixed:"
+msgstr ""
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr ""
+
+msgid "Improved:"
+msgstr ""
+
+msgid "Invalid GitHub repository URL."
+msgstr ""
+
+msgid "Invalid authentication provider."
+msgstr ""
+
+msgid "Misc:"
+msgstr ""
+
+msgid "More results"
+msgstr ""
+
+msgid "New:"
+msgstr ""
+
+msgid "No published content of this type exists yet."
+msgstr ""
+
+msgid "Open target URL in new tab ↗"
+msgstr ""
+
+msgid "Please select a target or enter a URL first."
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Private mode must be boolean."
+msgstr ""
+
+msgid "Redirect Draft Content updates require a newer deckerweb Updater. Update the other deckerweb plugins or install the Redirect Draft Content ZIP manually."
+msgstr ""
+
+msgid "Redirects"
+msgstr ""
+
+msgid "Results loaded. Select a target below."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search failed. Please try again."
+msgstr ""
+
+msgid "Search published content"
+msgstr ""
+
+msgid "Search published targets, pause each content type and keep existing site settings."
+msgstr ""
+
+msgid "Searching…"
+msgstr ""
+
+msgid "See the release on GitHub."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Support this plugin"
+msgstr ""
+
+msgid "Target Content"
+msgstr ""
+
+msgid "Target Mode"
+msgstr ""
+
+msgid "Temporarily redirect draft content to a published item or a custom URL, with individual targets for posts, pages and public custom post types."
+msgstr ""
+
+msgid "Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews."
+msgstr ""
+
+msgid "Temporary draft redirects with individual destinations per content type."
+msgstr ""
+
+msgid "The GitHub package could not be prepared. The installed version has been kept."
+msgstr ""
+
+msgid "The GitHub package does not contain the Redirect Draft Content plugin file."
+msgstr ""
+
+msgid "The package identity or version does not match a newer Redirect Draft Content release."
+msgstr ""
+
+msgid "The package version differs from the offered update. Please check for updates again."
+msgstr ""
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+
+msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
+msgstr ""
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+
+msgid "The selected target is no longer publicly available. Please select another target."
+msgstr ""
+
+msgid "The update filesystem is unavailable. Please try again."
+msgstr ""
+
+msgid "The update package could not be checked."
+msgstr ""
+
+msgid "The update package has missing or invalid WordPress/PHP requirements."
+msgstr ""
+
+msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
+msgstr ""
+
+msgid "Use a complete HTTP or HTTPS URL without credentials."
+msgstr ""
+
+msgid "Use a custom URL"
+msgstr ""
+
+msgid "— Please select —"
+msgstr ""

@@ -1,0 +1,10 @@
+{
+  "en": {
+    "heading": "Why I built this plugin",
+    "text": "A client urgently needed a reliable way to handle a transition involving more than 300 blog articles. I built Redirect Draft Content so visitors could reach a useful destination while articles were temporarily returned to draft status. It became a lifeline during the transition and worked beautifully in everyday use."
+  },
+  "de": {
+    "heading": "Warum ich dieses Plugin gebaut habe",
+    "text": "Ein Kunde musste über 300 Blogartikel umstellen und brauchte dafür dringend eine zuverlässige Lösung. Ich habe Redirect Draft Content gebaut, damit Besucher während der Umstellung ein sinnvolles Ziel erreichen, auch wenn Artikel vorübergehend wieder auf Entwurf stehen. Das Plugin wurde dabei zu seinem Rettungsring und hat sich im täglichen Einsatz bestens bewährt."
+  }
+}
