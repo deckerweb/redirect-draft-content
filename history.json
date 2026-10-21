@@ -1,5 +1,19 @@
 [
   {
+    "version": "0.9.1",
+    "date": "2026-10-21",
+    "changes": {
+      "Improved:": [
+        "Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1."
+      ],
+      "Fixed:": [
+        "Reliable changelog closing and documentation fallback when the dialog cannot open.",
+        "Plugin updates use the bundled updater even when another plugin loads an older copy first.",
+        "Settings notices stay outside the plugin title and slogan."
+      ]
+    }
+  },
+  {
     "version": "0.9.0",
     "date": "2026-10-07",
     "changes": {

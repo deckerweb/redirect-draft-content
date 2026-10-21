@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Project-Id-Version: Redirect Draft Content 0.9.0\nLanguage: de_DE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+msgstr "Project-Id-Version: Redirect Draft Content 0.9.1\nLanguage: de_DE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "%1$s (ID: %2$d)"
 msgstr "%1$s (ID: %2$d)"
@@ -34,6 +34,9 @@ msgstr "Lege für jeden Inhaltstyp fest, wohin Aufrufe von Inhalten im Entwurfss
 msgid "Development and test versions; not publicly released."
 msgstr "Entwicklungs- und Testversionen, unveröffentlicht."
 
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -52,6 +55,9 @@ msgstr "Externe URLs sind erlaubt. Entwürfe bleiben für Redakteure und in der 
 msgid "Fixed:"
 msgstr "Behoben:"
 
+msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
+msgstr "Git Updater ist aktiv. Wenn eine deckerweb-Installation oder ein Update fehlschlägt, deaktiviere Git Updater vorübergehend und versuche es erneut. Aktiviere ihn danach wieder, wenn andere Plugins oder Themes ihn benötigen. Lass ihn nur dauerhaft deaktiviert, wenn diese Erweiterungen einen anderen zuverlässigen Updateweg besitzen."
+
 msgid "GitHub release does not contain the plugin main file."
 msgstr "Der GitHub-Release enthält nicht die Hauptdatei des Plugins."
 
@@ -66,6 +72,9 @@ msgstr "Ungültiger Authentifizierungsanbieter."
 
 msgid "Local Shade artwork, a compact settings header and deckerweb Library 0.7.0."
 msgstr "Lokale Shade-Grafiken, kompakter Settings-Header und deckerweb Library 0.7.0."
+
+msgid "Manage installed plugins"
+msgstr "Installierte Plugins verwalten"
 
 msgid "Misc:"
 msgstr "Sonstiges:"
@@ -82,11 +91,17 @@ msgstr "Keine veröffentlichten Inhalte dieses Typs vorhanden."
 msgid "Open target URL in new tab ↗"
 msgstr "Ziel-URL in neuem Tab öffnen ↗"
 
+msgid "Permission denied."
+msgstr "Zugriff verweigert."
+
 msgid "Please select a target or enter a URL first."
 msgstr "Bitte zuerst ein Ziel auswählen oder eine URL eingeben."
 
 msgid "Plugin information"
 msgstr "Plugin-Informationen"
+
+msgid "Plugin updates use the bundled updater even when another plugin loads an older copy first."
+msgstr "Plugin-Updates verwenden den mitgelieferten Updater, auch wenn ein anderes Plugin zuerst eine ältere Kopie lädt."
 
 msgid "Preview"
 msgstr "Vorschau"
@@ -94,11 +109,17 @@ msgstr "Vorschau"
 msgid "Private mode must be boolean."
 msgstr "Der Private-Modus muss ein boolescher Wert sein."
 
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
+msgstr "Öffentliche Katalog-Callbacks benötigen beide Anbieter und können nicht im Private-Modus verwendet werden."
+
 msgid "Redirect Draft Content updates require a newer deckerweb Updater. Update the other deckerweb plugins or install the Redirect Draft Content ZIP manually."
 msgstr "Updates für Redirect Draft Content benötigen einen neueren deckerweb Updater. Aktualisiere die anderen deckerweb Plugins oder installiere das ZIP von Redirect Draft Content manuell."
 
 msgid "Redirects"
 msgstr "Weiterleitungen"
+
+msgid "Reliable changelog closing and documentation fallback when the dialog cannot open."
+msgstr "Zuverlässiges Schließen des Änderungsverlaufs und Dokumentationslink als Ersatz, wenn sich der Dialog nicht öffnen lässt."
 
 msgid "Results loaded. Select a target below."
 msgstr "Ergebnisse geladen. Wähle unten ein Ziel aus."
@@ -124,6 +145,9 @@ msgstr "Sieh dir den Release auf GitHub an."
 msgid "Settings"
 msgstr "Einstellungen"
 
+msgid "Settings notices stay outside the plugin title and slogan."
+msgstr "Einstellungsmeldungen stehen außerhalb von Plugin-Titel und Slogan."
+
 msgid "Support this plugin"
 msgstr "Dieses Plugin unterstützen"
 
@@ -132,9 +156,6 @@ msgstr "Ziel-Inhalt"
 
 msgid "Target Mode"
 msgstr "Ziel-Modus"
-
-msgid "Temporarily redirect draft content to a published item or a custom URL, with individual targets for posts, pages and public custom post types."
-msgstr "Entwürfe vorübergehend auf einen veröffentlichten Inhalt oder eine eigene URL weiterleiten, mit individuellen Zielen für Beiträge, Seiten und öffentliche eigene Inhaltstypen."
 
 msgid "Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews."
 msgstr "Temporäre Entwurfsweiterleitungen für Beiträge, Seiten und öffentlich aufrufbare eigene Inhaltstypen, mit individuellen Zielen und Live-Vorschau."
@@ -147,6 +168,12 @@ msgstr "Das GitHub-Paket konnte nicht vorbereitet werden. Die installierte Versi
 
 msgid "The GitHub package does not contain the Redirect Draft Content plugin file."
 msgstr "Das GitHub-Paket enthält nicht die Plugin-Datei von Redirect Draft Content."
+
+msgid "The approved release changed. Refresh updates first."
+msgstr "Die freigegebene Version hat sich geändert. Suche zuerst erneut nach Updates."
+
+msgid "The approved release could not be verified."
+msgstr "Die freigegebene Version konnte nicht geprüft werden."
 
 msgid "The package identity or version does not match a newer Redirect Draft Content release."
 msgstr "Das Paket oder seine Version passt nicht zu einem neueren Release von Redirect Draft Content."
@@ -177,6 +204,9 @@ msgstr "Die WordPress-/PHP-Voraussetzungen im Update-Paket fehlen oder sind ung�
 
 msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
 msgstr "Dieser Release benötigt eine neuere WordPress- oder PHP-Version. Die installierte Version wurde beibehalten."
+
+msgid "Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1."
+msgstr "deckerweb Library auf 1.1.0 und deckerweb Updater auf 2.2.1 aktualisiert."
 
 msgid "Use a complete HTTP or HTTPS URL without credentials."
 msgstr "Verwende eine vollständige HTTP- oder HTTPS-URL ohne Zugangsdaten."

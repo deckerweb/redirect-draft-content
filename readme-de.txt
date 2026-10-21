@@ -4,11 +4,11 @@ Tags: redirects, drafts, content-management
 Requires at least: 7.1.2
 Tested up to: 7.1.2
 Requires PHP: 8.2
-Stable tag: 0.9.0
+Stable tag: 0.9.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Redirect Draft Content leitet Aufrufe von Entwürfen vorübergehend auf ein veröffentlichtes Ziel oder eine eigene URL weiter. Das kleine Helfer-Plugin aus der Serie Manage Content erhält die Vorschau für Redakteure und bietet individuelle Ziele je Inhaltstyp.
+Entwürfe vorübergehend auf veröffentlichte Inhalte oder eigene URLs weiterleiten – mit individuellen Zielen je Inhaltstyp.
 
 == Description ==
 - Echte temporäre Weiterleitungen mit HTTP 302.
@@ -17,7 +17,7 @@ Redirect Draft Content leitet Aufrufe von Entwürfen vorübergehend auf ein ver�
 - Eigene HTTP-/HTTPS-URLs und Live-Vorschau.
 - Exakter Pfadabgleich und Schutz vor bekannten Entwurfsschleifen.
 - Englisch, Deutsch und Deutsch (Sie).
-- deckerweb Library 0.7.0 und deckerweb Updater 2.1.0.
+- deckerweb Library 1.1.0 und deckerweb Updater 2.2.1.
 
 == Installation ==
 1. Deaktiviere das bisherige Redirect-Draft-Content-Snippet.
@@ -50,6 +50,11 @@ Ja. Ziele werden je Website unter Einstellungen → Entwurfsweiterleitung festge
 Die Einstellungen in rdc_targets und alle Inhalte bleiben erhalten. Repositorybezogene Update-Caches werden entfernt. Die gemeinsame Library berücksichtigt andere installierte Host-Plugins; ihre optionale Einstellungslöschung greift nur beim letzten Host.
 
 == Changelog ==
+= 0.9.1 =
+* Verbessert: deckerweb Library auf 1.1.0 und deckerweb Updater auf 2.2.1 aktualisiert.
+* Behoben: Zuverlässiges Schließen des Änderungsverlaufs und Dokumentationslink als Ersatz, wenn sich der Dialog nicht öffnen lässt.
+* Behoben: Plugin-Updates verwenden den mitgelieferten Updater, auch wenn ein anderes Plugin zuerst eine ältere Kopie lädt.
+* Behoben: Einstellungsmeldungen stehen außerhalb von Plugin-Titel und Slogan.
 = 0.9.0 =
 * Neu: Temporäre Entwurfsweiterleitungen für Beiträge, Seiten und öffentlich aufrufbare eigene Inhaltstypen, mit individuellen Zielen und Live-Vorschau.
 * Verbessert: Veröffentlichte Ziele suchen, Weiterleitungen je Inhaltstyp pausieren und bestehende Website-Einstellungen behalten.

@@ -4,11 +4,11 @@ Tags: redirects, drafts, content-management
 Requires at least: 7.1.2
 Tested up to: 7.1.2
 Requires PHP: 8.2
-Stable tag: 0.9.0
+Stable tag: 0.9.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Redirect Draft Content temporarily redirects draft requests to a published destination or a custom URL. This small Manage Content helper preserves editor previews and provides individual targets per content type.
+Temporarily redirect drafts to published content or a custom URL, with individual targets per content type.
 
 == Description ==
 - Temporary HTTP 302 redirects.
@@ -17,7 +17,7 @@ Redirect Draft Content temporarily redirects draft requests to a published desti
 - Custom HTTP/HTTPS URLs and live previews.
 - Exact route matching and protection against known draft loops.
 - English, German and formal German.
-- deckerweb Library 0.7.0 and deckerweb Updater 2.1.0.
+- deckerweb Library 1.1.0 and deckerweb Updater 2.2.1.
 
 == Installation ==
 1. Disable the existing Redirect Draft Content snippet.
@@ -50,6 +50,11 @@ Yes. Configure destinations in Settings → Draft Redirect on each site. Network
 Your rdc_targets settings and all content remain. Repository-specific updater caches are removed. Shared Library cleanup respects other installed hosts; its optional settings deletion only applies to the last host.
 
 == Changelog ==
+= 0.9.1 =
+* Improved: Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1.
+* Fixed: Reliable changelog closing and documentation fallback when the dialog cannot open.
+* Fixed: Plugin updates use the bundled updater even when another plugin loads an older copy first.
+* Fixed: Settings notices stay outside the plugin title and slogan.
 = 0.9.0 =
 * New: Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.
 * Improved: Search published targets, pause each content type and keep existing site settings.

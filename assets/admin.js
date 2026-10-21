@@ -51,7 +51,22 @@
  });
  const dialog = document.getElementById('rdc-history');
  const open = document.getElementById('rdc-history-open');
- open?.addEventListener('click', () => dialog.showModal());
- document.getElementById('rdc-history-close')?.addEventListener('click', () => dialog.close());
- dialog?.addEventListener('close', () => open.focus());
+ if (!dialog || !open || dialog.dataset.rdcController) return;
+ dialog.dataset.rdcController = '1';
+ const proto = window.HTMLDialogElement?.prototype;
+ if (typeof proto?.showModal !== 'function' || typeof proto?.close !== 'function') return;
+ const close = () => { proto.close.call(dialog); dialog.hidden = true; };
+ open.addEventListener('click', event => {
+  if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  dialog.hidden = false;
+  try { proto.showModal.call(dialog); } catch (_) { dialog.hidden = true; return; }
+  if (dialog.open) event.preventDefault(); else dialog.hidden = true;
+ }, true);
+ dialog.querySelector('form').addEventListener('submit', event => { event.preventDefault(); close(); });
+ dialog.addEventListener('click', event => {
+  if (event.target !== dialog) return;
+  const box = dialog.getBoundingClientRect();
+  if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) close();
+ });
+ dialog.addEventListener('close', () => { dialog.hidden = true; open.focus(); });
 })();

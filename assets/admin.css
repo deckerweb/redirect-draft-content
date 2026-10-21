@@ -4,3 +4,5 @@
 .rdc-footer{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;max-width:1040px;flex-wrap:wrap;line-height:1.6}.rdc-footer-brand{display:flex;gap:14px;align-items:flex-start}.rdc-footer p{margin:0 0 5px}.rdc-footer strong{color:#1d2327}.rdc-footer-author{text-align:right}.rdc-footer a{color:#50575e}@media(max-width:600px){.rdc-footer{flex-direction:column;gap:12px}.rdc-footer span{display:inline}.rdc-footer-author{text-align:left}}
 
 .rdc-header{display:flex;align-items:center;gap:14px;margin:20px 0 14px}.rdc-header img{width:44px;height:44px;flex-shrink:0;border-radius:8px}.rdc-header h1{padding:0}.rdc-header-slogan{margin:5px 0 0;color:#50575e}@media(max-width:600px){.rdc-header{gap:12px}.rdc-header h1{line-height:1.2}}
+
+#rdc-history[hidden],#rdc-history:not([open]){display:none!important}#rdc-history[open]:not([hidden]){display:block}#rdc-history form{margin-top:20px}

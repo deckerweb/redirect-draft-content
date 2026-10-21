@@ -2,6 +2,13 @@
 
 [English](Changelog-English.md) · [Deutsch](Changelog-Deutsch.md)
 
+### 0.9.1 · 2026-10-21
+
+- **Verbessert:** deckerweb Library auf 1.1.0 und deckerweb Updater auf 2.2.1 aktualisiert.
+- **Behoben:** Zuverlässiges Schließen des Änderungsverlaufs und Dokumentationslink als Ersatz, wenn sich der Dialog nicht öffnen lässt.
+- **Behoben:** Plugin-Updates verwenden den mitgelieferten Updater, auch wenn ein anderes Plugin zuerst eine ältere Kopie lädt.
+- **Behoben:** Einstellungsmeldungen stehen außerhalb von Plugin-Titel und Slogan.
+
 ### 0.9.0 · 2026-10-07
 
 - **Neu:** Temporäre Entwurfsweiterleitungen für Beiträge, Seiten und öffentlich aufrufbare eigene Inhaltstypen, mit individuellen Zielen und Live-Vorschau.

@@ -21,16 +21,16 @@ final class GitHubUpdates {
 
 	/** Load the shared versioned class once, including beside other deckerweb plugins. @return void */
 	public function boot(): void {
-		if ( ! class_exists( '\Deckerweb\GitHubReleaseUpdater\V2\Updater' ) ) {
-			require_once dirname( DDW_RDC_FILE ) . '/includes/deckerweb-github-release-updater-v2.php';
-		}
-		if ( ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::SUPPORTS_HOST_TRANSLATIONS' ) ) {
+		$updater_class = require dirname( DDW_RDC_FILE ) . '/includes/deckerweb-github-release-updater-v2.php';
+		if ( ! is_string( $updater_class ) || ! class_exists( $updater_class, false )
+			|| ! defined( $updater_class . '::SUPPORTS_HOST_TRANSLATIONS' )
+			|| ! constant( $updater_class . '::SUPPORTS_HOST_TRANSLATIONS' ) ) {
 			add_action( 'admin_notices', array( $this, 'compatibility_notice' ) );
 			add_action( 'network_admin_notices', array( $this, 'compatibility_notice' ) );
 			return;
 		}
 		try {
-			$updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater(
+			$updater = new $updater_class(
 				DDW_RDC_FILE,
 				self::REPOSITORY,
 				'Redirect Draft Content',

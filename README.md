@@ -10,7 +10,7 @@ Redirect Draft Content temporarily redirects draft requests to a published desti
 
 A client urgently needed a reliable way to handle a transition involving more than 300 blog articles. I built Redirect Draft Content so visitors could reach a useful destination while articles were temporarily returned to draft status. It became a lifeline during the transition and worked beautifully in everyday use.
 
-**Version 0.9.0 · WordPress ≥ 7.1.2 · PHP ≥ 8.2 · GPL v2 or later**
+**Version 0.9.1 · WordPress ≥ 7.1.2 · PHP ≥ 8.2 · GPL v2 or later**
 
 [Deutsch](README-de.md) · [FAQ](docs/FAQ-English.md) · [Wiki](https://github.com/deckerweb/redirect-draft-content/wiki) · [GitHub](https://github.com/deckerweb/redirect-draft-content)
 
@@ -24,7 +24,7 @@ Contents: [At a glance](#at-a-glance) · [Getting started](#getting-started) · 
 - Custom HTTP/HTTPS URLs and live previews.
 - Exact route matching and protection against known draft loops.
 - English, German and formal German.
-- deckerweb Library 0.7.0 and deckerweb Updater 2.1.0.
+- deckerweb Library 1.1.0 and deckerweb Updater 2.2.1.
 
 ## Getting started
 
@@ -78,6 +78,13 @@ Your rdc_targets settings and all content remain. Repository-specific updater ca
 [Complete FAQ by topic](docs/FAQ-English.md)
 
 ## Changelog
+
+### 0.9.1 · 2026-10-21
+
+- **Improved:** Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1.
+- **Fixed:** Reliable changelog closing and documentation fallback when the dialog cannot open.
+- **Fixed:** Plugin updates use the bundled updater even when another plugin loads an older copy first.
+- **Fixed:** Settings notices stay outside the plugin title and slogan.
 
 ### 0.9.0 · 2026-10-07
 

@@ -1,0 +1,57 @@
+{
+  "name": "Redirect Draft Content",
+  "slug": "redirect-draft-content",
+  "year": "2026",
+  "languages": [
+    {
+      "heading": "English",
+      "items": [
+        [
+          "Getting started and usage",
+          "English"
+        ],
+        [
+          "FAQ by topic",
+          "FAQ-English"
+        ],
+        [
+          "Glossary",
+          "Glossary"
+        ],
+        [
+          "Changelog",
+          "Changelog-English"
+        ],
+        [
+          "Help and security",
+          "English#help-and-security"
+        ]
+      ]
+    },
+    {
+      "heading": "Deutsch",
+      "items": [
+        [
+          "Einstieg und Nutzung",
+          "Deutsch"
+        ],
+        [
+          "Fragen nach Themen",
+          "FAQ-Deutsch"
+        ],
+        [
+          "Begriffsverzeichnis",
+          "Glossary"
+        ],
+        [
+          "Änderungsverlauf",
+          "Changelog-Deutsch"
+        ],
+        [
+          "Hilfe und Sicherheit",
+          "Deutsch#hilfe-und-sicherheit"
+        ]
+      ]
+    }
+  ]
+}

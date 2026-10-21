@@ -3,7 +3,7 @@
  * Plugin Name: Redirect Draft Content
  * Plugin URI: https://github.com/deckerweb/redirect-draft-content
  * Description: Temporarily redirect draft content to a published item or a custom URL, with individual targets for posts, pages and public custom post types.
- * Version: 0.9.0
+ * Version: 0.9.1
  * Requires at least: 7.1.2
  * Requires PHP: 8.2
  * Author: David Decker – DECKERWEB
@@ -20,7 +20,7 @@
  */
 defined( 'ABSPATH' ) || exit;
 define( 'DDW_RDC_FILE', __FILE__ );
-define( 'DDW_RDC_VERSION', '0.9.0' );
+define( 'DDW_RDC_VERSION', '0.9.1' );
 require_once __DIR__ . '/includes/deckerweb-plugin-library/bootstrap.php';
 deckerweb_library_register_v2( __FILE__, array(), __DIR__ . '/includes/deckerweb-plugin-library' );
 require_once __DIR__ . '/includes/updates.php';
@@ -177,7 +177,8 @@ class DDW_Redirect_Draft_Content {
 		?>
 		<div class="wrap rdc-settings">
 			<header class="rdc-header"><img src="<?php echo esc_url( plugins_url( 'assets/brand/icon.svg', DDW_RDC_FILE ) ); ?>" width="44" height="44" alt="" aria-hidden="true"><div><h1>Redirect Draft Content</h1><p class="rdc-header-slogan"><?php esc_html_e( 'Your content takes a short break.', 'redirect-draft-content' ); ?></p></div></header>
-			<p class="rdc-series">deckerweb · Manage Content · 0.9.0</p>
+			<hr class="wp-header-end">
+			<p class="rdc-series">deckerweb · Manage Content · <?php echo esc_html( DDW_RDC_VERSION ); ?></p>
 			<p><?php esc_html_e( 'Define, for each content type, where requests for content in draft status should be redirected to via a 302 redirect – either to an existing published item or to a custom URL.', 'redirect-draft-content' ); ?></p>
 
 			<form method="post" action="options.php">
@@ -305,6 +306,7 @@ class DDW_Redirect_Draft_Content {
 		$page = isset( $_POST['page'] ) && is_scalar( $_POST['page'] ) ? min( 1000, max( 1, absint( $_POST['page'] ) ) ) : 1;
 		$query = new WP_Query( array( 'post_type' => $pt, 'post_status' => 'publish', 'post_password' => '', 's' => substr( $term, 0, 200 ), 'posts_per_page' => 30, 'paged' => $page, 'orderby' => 'title ID', 'order' => 'ASC', 'no_found_rows' => true, 'update_post_meta_cache' => false, 'update_post_term_cache' => false ) );
 		$items = array();
+		/* translators: 1: Content title, 2: Content ID. */
 		foreach ( $query->posts as $post ) { $items[] = array( 'id' => $post->ID, 'label' => sprintf( __( '%1$s (ID: %2$d)', 'redirect-draft-content' ), $post->post_title ?: __( '(Untitled)', 'redirect-draft-content' ), $post->ID ), 'url' => get_permalink( $post ) ); }
 		wp_send_json_success( array( 'items' => $items, 'more' => count( $items ) === 30 ) );
 	}
@@ -315,25 +317,26 @@ class DDW_Redirect_Draft_Content {
 		<footer class="rdc-footer" aria-label="<?php echo esc_attr__( 'Plugin information', 'redirect-draft-content' ); ?>">
 			<div class="rdc-footer-brand">
 				<div><p><strong>Redirect Draft Content</strong> <span><?php esc_html_e( 'Version', 'redirect-draft-content' ); ?> <?php echo esc_html( DDW_RDC_VERSION ); ?></span></p>
-				<p><button type="button" class="button-link" id="rdc-history-open" aria-haspopup="dialog" aria-controls="rdc-history"><?php esc_html_e( 'Changelog', 'redirect-draft-content' ); ?></button> · <a href="<?php echo esc_url( 'https://github.com/deckerweb/redirect-draft-content/wiki/' . ( str_starts_with( determine_locale(), 'de' ) ? 'Deutsch' : 'English' ) ); ?>"><?php esc_html_e( 'Documentation', 'redirect-draft-content' ); ?></a></p></div>
+				<p><a href="<?php echo esc_url( 'https://github.com/deckerweb/redirect-draft-content/wiki/Changelog-' . ( str_starts_with( determine_locale(), 'de' ) ? 'Deutsch' : 'English' ) ); ?>" id="rdc-history-open" aria-haspopup="dialog" aria-controls="rdc-history"><?php esc_html_e( 'Changelog', 'redirect-draft-content' ); ?></a> · <a href="<?php echo esc_url( 'https://github.com/deckerweb/redirect-draft-content/wiki/' . ( str_starts_with( determine_locale(), 'de' ) ? 'Deutsch' : 'English' ) ); ?>"><?php esc_html_e( 'Documentation', 'redirect-draft-content' ); ?></a></p></div>
 			</div>
 			<div class="rdc-footer-author"><p>© 2026 <a href="https://github.com/deckerweb">David Decker – DECKERWEB</a></p><p><a href="https://ko-fi.com/deckerweb"><?php esc_html_e( 'Support this plugin', 'redirect-draft-content' ); ?></a></p></div>
 		</footer>
-		<dialog id="rdc-history" aria-labelledby="rdc-history-title"><h2 id="rdc-history-title"><?php esc_html_e( 'Changelog', 'redirect-draft-content' ); ?></h2>
+		<dialog hidden id="rdc-history" aria-labelledby="rdc-history-title"><h2 id="rdc-history-title"><?php esc_html_e( 'Changelog', 'redirect-draft-content' ); ?></h2>
 		<?php
 		$history = json_decode( (string) file_get_contents( __DIR__ . '/history.json' ), true );
+		$messages = require __DIR__ . '/includes/history-translations.php';
 		$categories = array( 'New:' => __( 'New:', 'redirect-draft-content' ), 'Improved:' => __( 'Improved:', 'redirect-draft-content' ), 'Fixed:' => __( 'Fixed:', 'redirect-draft-content' ), 'Misc:' => __( 'Misc:', 'redirect-draft-content' ) );
 		foreach ( is_array( $history ) ? $history : array() as $release ) {
 			echo '<h3>' . esc_html( $release['version'] ) . ( ! empty( $release['date'] ) ? ' <small>' . esc_html( $release['date'] ) . '</small>' : '' ) . '</h3>';
 			foreach ( $categories as $category => $label ) {
 				if ( empty( $release['changes'][ $category ] ) ) { continue; }
 				echo '<span class="rdc-badge rdc-' . esc_attr( strtolower( rtrim( $category, ':' ) ) ) . '">' . esc_html( $label ) . '</span><ul>';
-				foreach ( $release['changes'][ $category ] as $message ) { echo '<li>' . esc_html( translate( $message, 'redirect-draft-content' ) ) . '</li>'; }
+				foreach ( $release['changes'][ $category ] as $message ) { echo '<li>' . esc_html( $messages[ $message ] ?? $message ) . '</li>'; }
 				echo '</ul>';
 			}
 		}
 		?>
-		<button type="button" class="button" id="rdc-history-close"><?php esc_html_e( 'Close', 'redirect-draft-content' ); ?></button></dialog>
+		<form method="dialog"><button type="submit" class="button" id="rdc-history-close"><?php esc_html_e( 'Close', 'redirect-draft-content' ); ?></button></form></dialog>
 		<?php
 	}
 
@@ -358,7 +361,7 @@ class DDW_Redirect_Draft_Content {
 	 * @return string Valid destination or an empty string; no headers are sent here.
 	 */
 	public function redirect_url(): string {
-		$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+		$method = strtoupper( sanitize_key( wp_unslash( $_SERVER['REQUEST_METHOD'] ?? 'GET' ) ) );
 		if ( ! in_array( $method, array( 'GET', 'HEAD' ), true ) || is_admin() || wp_doing_ajax() || wp_doing_cron() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) || is_preview() || is_feed() || is_trackback() || is_embed() || ( ! is_404() && ! is_singular() ) || current_user_can( 'edit_posts' ) ) { return ''; }
 		$object = get_queried_object();
 		if ( $object instanceof WP_Post && $object->post_status !== 'draft' ) { return ''; }

@@ -2,6 +2,7 @@
 from pathlib import Path
 import json, re, sys
 root=Path(__file__).resolve().parents[1]
+version=re.search(r"define\( 'DDW_RDC_VERSION', '([^']+)'",(root/'redirect-draft-content.php').read_text())[1]
 story=json.loads((root/'content/about.json').read_text())
 faq=json.loads((root/'content/faq.json').read_text())
 history=json.loads((root/'history.json').read_text())
@@ -13,6 +14,7 @@ def save(path,text):
   if '--check' not in sys.argv:path.write_text(text)
 for lang,name in [('en','README.md'),('de','README-de.md')]:
  de=lang=='de';path=root/name;text=path.read_text();data=story[lang]
+ text=re.sub(r'\*\*Version \d+\.\d+\.\d+', '**Version '+version, text)
  text=re.sub(r'### '+re.escape(data['heading'])+r'\n\n.*?(?=\n\n\*\*Version)',f"### {data['heading']}\n\n{data['text']}",text,flags=re.S)
  questions='\n\n'.join(f"### {entry[lang]['question']}\n\n{entry[lang]['answer']}"for entry in faq)
  text=re.sub(r'## FAQ\n\n.*?(?=\n\n\[Complete FAQ|\n\n\[Vollständige FAQ)',f'## FAQ\n\n{questions}',text,flags=re.S)
@@ -33,13 +35,23 @@ for lang,name in [('en','README.md'),('de','README-de.md')]:
  save(fpath,ftext.split(marker)[0]+grouped+'\n')
  hpath=root/'docs'/('Changelog-Deutsch.md'if de else'Changelog-English.md')
  htext=hpath.read_text();save(hpath,htext.split('### ')[0]+rendered+'\n')
- wpath=root/('readme-de.txt'if de else'readme.txt');wtext=wpath.read_text();wtext=wtext.split('== Frequently Asked Questions ==')[0]+'== Frequently Asked Questions ==\n'+'\n\n'.join('= '+entry[lang]['question']+' =\n'+entry[lang]['answer']for entry in faq)+'\n\n== Changelog ==\n'
+ wpath=root/('readme-de.txt'if de else'readme.txt');wtext=re.sub(r'Stable tag: \d+\.\d+\.\d+', 'Stable tag: '+version, wpath.read_text());wtext=wtext.split('== Frequently Asked Questions ==')[0]+'== Frequently Asked Questions ==\n'+'\n\n'.join('= '+entry[lang]['question']+' =\n'+entry[lang]['answer']for entry in faq)+'\n\n== Changelog ==\n'
  for release in history:
   wtext+='= '+release['version']+' =\n'+'\n'.join('* '+(translations[key]if de else key)+' '+(translations[item]if de else item)for key,items in release['changes'].items()for item in items)+'\n'
  save(wpath,wtext)
-index=root/'index.md';text=index.read_text()
+index=root/'index.md';text=re.sub(r'\*\*\d+\.\d+\.\d+ ·', '**'+version+' ·', index.read_text())
 for lang in ['en','de']:
  data=story[lang];text=re.sub(r'## '+re.escape(data['heading'])+r'\n\n.*?(?=\n\n## )',f"## {data['heading']}\n\n{data['text']}",text,flags=re.S)
 save(index,text)
 print(('Content drift: 'if '--check'in sys.argv else'Updated: ')+', '.join(changed)if changed else'All public content is synchronized.')
 if '--check'in sys.argv and changed:sys.exit(1)
+
+messages=sorted({message for release in history for items in release['changes'].values() for message in items})
+php="<?php\n/** Local changelog messages in the host textdomain. @package RedirectDraftContent */\ndefined( 'ABSPATH' ) || exit;\nreturn array(\n"
+for message in messages:
+ escaped=message.replace("\\", "\\\\").replace("'", "\\'")
+ php+="\t'"+escaped+"' => __( '"+escaped+"', 'redirect-draft-content' ),\n"
+php+=");\n"
+path=root/'includes/history-translations.php'
+if not path.exists():path.write_text(php)
+else:save(path,php)

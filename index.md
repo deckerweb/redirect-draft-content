@@ -6,7 +6,9 @@ layout: default
 
 A small Manage Content helper for WordPress. Ein kleines Manage-Content-Helfer-Plugin für WordPress.
 
-**0.9.0 · WordPress 7.1.2+ · PHP 8.2+**
+**0.9.1 · WordPress 7.1.2+ · PHP 8.2+**
+
+[Download plugin ZIP / Plugin-ZIP herunterladen](https://github.com/deckerweb/redirect-draft-content/releases/download/v0.9.1/redirect-draft-content-0.9.1.zip)
 
 [English documentation](https://github.com/deckerweb/redirect-draft-content/wiki/English) · [Deutsche Dokumentation](https://github.com/deckerweb/redirect-draft-content/wiki/Deutsch) · [GitHub repository](https://github.com/deckerweb/redirect-draft-content)
 
@@ -25,4 +27,4 @@ Ein Kunde musste über 300 Blogartikel umstellen und brauchte dafür dringend ei
 - Search published destinations; pause redirects per content type.
 - Deutsch, Deutsch (Sie) und Englisch.
 
-[Questions and answers](docs/FAQ-English.md) · [Fragen und Antworten](docs/FAQ-Deutsch.md)
+[Questions and answers](https://github.com/deckerweb/redirect-draft-content/wiki/FAQ-English) · [Fragen und Antworten](https://github.com/deckerweb/redirect-draft-content/wiki/FAQ-Deutsch)

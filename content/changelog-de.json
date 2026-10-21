@@ -7,5 +7,9 @@
   "Exact route matching, validated targets and protection against self-redirects.": "Exakter URL-Abgleich, geprüfte Ziele und Schutz vor Weiterleitungen auf dieselbe URL.",
   "Misc:": "Sonstiges:",
   "Development and test versions; not publicly released.": "Entwicklungs- und Testversionen, unveröffentlicht.",
-  "Local Shade artwork, a compact settings header and deckerweb Library 0.7.0.": "Lokale Shade-Grafiken, kompakter Settings-Header und deckerweb Library 0.7.0."
+  "Local Shade artwork, a compact settings header and deckerweb Library 0.7.0.": "Lokale Shade-Grafiken, kompakter Settings-Header und deckerweb Library 0.7.0.",
+  "Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1.": "deckerweb Library auf 1.1.0 und deckerweb Updater auf 2.2.1 aktualisiert.",
+  "Reliable changelog closing and documentation fallback when the dialog cannot open.": "Zuverlässiges Schließen des Änderungsverlaufs und Dokumentationslink als Ersatz, wenn sich der Dialog nicht öffnen lässt.",
+  "Plugin updates use the bundled updater even when another plugin loads an older copy first.": "Plugin-Updates verwenden den mitgelieferten Updater, auch wenn ein anderes Plugin zuerst eine ältere Kopie lädt.",
+  "Settings notices stay outside the plugin title and slogan.": "Einstellungsmeldungen stehen außerhalb von Plugin-Titel und Slogan."
 }

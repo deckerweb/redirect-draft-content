@@ -4,7 +4,7 @@
 
 Redirect Draft Content leitet Aufrufe von Entwürfen vorübergehend auf ein veröffentlichtes Ziel oder eine eigene URL weiter. Das kleine Helfer-Plugin aus der Serie Manage Content erhält die Vorschau für Redakteure und bietet individuelle Ziele je Inhaltstyp.
 
-[English](../README.md)
+[English](English.md)
 
 ## Erste Schritte
 
@@ -23,4 +23,9 @@ Bei einer bestehenden Plugin-Installation kann das ZIP die bisherige Fassung ers
 - Eigene HTTP-/HTTPS-URLs und Live-Vorschau.
 - Exakter Pfadabgleich und Schutz vor bekannten Entwurfsschleifen.
 - Englisch, Deutsch und Deutsch (Sie).
-- deckerweb Library 0.7.0 und deckerweb Updater 2.1.0.
+- deckerweb Library 1.1.0 und deckerweb Updater 2.2.1.
+
+
+## Hilfe und Sicherheit
+
+[Issues](https://github.com/deckerweb/redirect-draft-content/issues) · [Discussions](https://github.com/deckerweb/redirect-draft-content/discussions) · [Security / Sicherheit](https://github.com/deckerweb/redirect-draft-content/security/policy)

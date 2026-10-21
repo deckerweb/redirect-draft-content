@@ -35,6 +35,9 @@ msgstr ""
 msgid "Development and test versions; not publicly released."
 msgstr ""
 
+msgid "Dismiss this notice"
+msgstr ""
+
 msgid "Documentation"
 msgstr ""
 
@@ -53,6 +56,9 @@ msgstr ""
 msgid "Fixed:"
 msgstr ""
 
+msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
+msgstr ""
+
 msgid "GitHub release does not contain the plugin main file."
 msgstr ""
 
@@ -66,6 +72,9 @@ msgid "Invalid authentication provider."
 msgstr ""
 
 msgid "Local Shade artwork, a compact settings header and deckerweb Library 0.7.0."
+msgstr ""
+
+msgid "Manage installed plugins"
 msgstr ""
 
 msgid "Misc:"
@@ -83,10 +92,16 @@ msgstr ""
 msgid "Open target URL in new tab ↗"
 msgstr ""
 
+msgid "Permission denied."
+msgstr ""
+
 msgid "Please select a target or enter a URL first."
 msgstr ""
 
 msgid "Plugin information"
+msgstr ""
+
+msgid "Plugin updates use the bundled updater even when another plugin loads an older copy first."
 msgstr ""
 
 msgid "Preview"
@@ -95,10 +110,16 @@ msgstr ""
 msgid "Private mode must be boolean."
 msgstr ""
 
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
+msgstr ""
+
 msgid "Redirect Draft Content updates require a newer deckerweb Updater. Update the other deckerweb plugins or install the Redirect Draft Content ZIP manually."
 msgstr ""
 
 msgid "Redirects"
+msgstr ""
+
+msgid "Reliable changelog closing and documentation fallback when the dialog cannot open."
 msgstr ""
 
 msgid "Results loaded. Select a target below."
@@ -125,6 +146,9 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+msgid "Settings notices stay outside the plugin title and slogan."
+msgstr ""
+
 msgid "Support this plugin"
 msgstr ""
 
@@ -132,9 +156,6 @@ msgid "Target Content"
 msgstr ""
 
 msgid "Target Mode"
-msgstr ""
-
-msgid "Temporarily redirect draft content to a published item or a custom URL, with individual targets for posts, pages and public custom post types."
 msgstr ""
 
 msgid "Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews."
@@ -147,6 +168,12 @@ msgid "The GitHub package could not be prepared. The installed version has been 
 msgstr ""
 
 msgid "The GitHub package does not contain the Redirect Draft Content plugin file."
+msgstr ""
+
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+
+msgid "The approved release could not be verified."
 msgstr ""
 
 msgid "The package identity or version does not match a newer Redirect Draft Content release."
@@ -177,6 +204,9 @@ msgid "The update package has missing or invalid WordPress/PHP requirements."
 msgstr ""
 
 msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
+msgstr ""
+
+msgid "Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1."
 msgstr ""
 
 msgid "Use a complete HTTP or HTTPS URL without credentials."

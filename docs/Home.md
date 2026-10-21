@@ -2,8 +2,10 @@
 
 ![Redirect Draft Content](https://raw.githubusercontent.com/deckerweb/redirect-draft-content/main/assets-github/banner-en-1280x640.png)
 
-Temporary draft redirects. Temporäre Entwurfsweiterleitungen.
+**Your content takes a short break. · Deine Inhalte machen kurz Pause.**
 
-- [English](English.md) · [Deutsch](Deutsch.md)
-- [FAQ English](FAQ-English.md) · [FAQ Deutsch](FAQ-Deutsch.md)
-- [Changelog English](Changelog-English.md) · [Änderungsverlauf](Changelog-Deutsch.md)
+Temporary redirects keep draft URLs useful while content is being revised.
+Temporäre Weiterleitungen halten Entwurfs-URLs während einer Überarbeitung nutzbar.
+
+- [English: getting started and usage](English.md)
+- [Deutsch: Einstieg und Nutzung](Deutsch.md)
