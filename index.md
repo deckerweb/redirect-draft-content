@@ -8,7 +8,7 @@ A small Manage Content helper for WordPress. Ein kleines Manage-Content-Helfer-P
 
 **0.9.2 · WordPress 7.1.2+ · PHP 8.2+**
 
-[Download plugin ZIP / Plugin-ZIP herunterladen](https://github.com/deckerweb/redirect-draft-content/releases/download/v0.9.1/redirect-draft-content-0.9.1.zip)
+[Download plugin ZIP / Plugin-ZIP herunterladen](https://github.com/deckerweb/redirect-draft-content/releases/download/v0.9.2/redirect-draft-content-0.9.2.zip)
 
 [English documentation](https://github.com/deckerweb/redirect-draft-content/wiki/English) · [Deutsche Dokumentation](https://github.com/deckerweb/redirect-draft-content/wiki/Deutsch) · [GitHub repository](https://github.com/deckerweb/redirect-draft-content)
 
