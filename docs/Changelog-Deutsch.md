@@ -2,6 +2,10 @@
 
 [English](Changelog-English.md) · [Deutsch](Changelog-Deutsch.md)
 
+### 0.9.2 · 2026-11-09
+
+- **Behoben:** deckerweb Library auf 1.3.0 und Updater auf 2.4.0 aktualisiert: normale Updates unabhängig vom Katalog, begrenzte Downloads und strengere Paketprüfung.
+
 ### 0.9.1 · 2026-10-21
 
 - **Verbessert:** deckerweb Library auf 1.1.0 und deckerweb Updater auf 2.2.1 aktualisiert.

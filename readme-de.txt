@@ -2,9 +2,9 @@
 Contributors: deckerweb
 Tags: redirects, drafts, content-management
 Requires at least: 7.1.2
-Tested up to: 7.1.2
+Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 0.9.1
+Stable tag: 0.9.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ Entwürfe vorübergehend auf veröffentlichte Inhalte oder eigene URLs weiterlei
 - Eigene HTTP-/HTTPS-URLs und Live-Vorschau.
 - Exakter Pfadabgleich und Schutz vor bekannten Entwurfsschleifen.
 - Englisch, Deutsch und Deutsch (Sie).
-- deckerweb Library 1.1.0 und deckerweb Updater 2.2.1.
+- deckerweb Library 1.3.0 und deckerweb Updater 2.4.0.
 
 == Installation ==
 1. Deaktiviere das bisherige Redirect-Draft-Content-Snippet.
@@ -50,6 +50,8 @@ Ja. Ziele werden je Website unter Einstellungen → Entwurfsweiterleitung festge
 Die Einstellungen in rdc_targets und alle Inhalte bleiben erhalten. Repositorybezogene Update-Caches werden entfernt. Die gemeinsame Library berücksichtigt andere installierte Host-Plugins; ihre optionale Einstellungslöschung greift nur beim letzten Host.
 
 == Changelog ==
+= 0.9.2 =
+* Behoben: deckerweb Library auf 1.3.0 und Updater auf 2.4.0 aktualisiert: normale Updates unabhängig vom Katalog, begrenzte Downloads und strengere Paketprüfung.
 = 0.9.1 =
 * Verbessert: deckerweb Library auf 1.1.0 und deckerweb Updater auf 2.2.1 aktualisiert.
 * Behoben: Zuverlässiges Schließen des Änderungsverlaufs und Dokumentationslink als Ersatz, wenn sich der Dialog nicht öffnen lässt.

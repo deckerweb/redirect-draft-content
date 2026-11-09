@@ -3,7 +3,7 @@
  * Plugin Name: Redirect Draft Content
  * Plugin URI: https://github.com/deckerweb/redirect-draft-content
  * Description: Temporarily redirect draft content to a published item or a custom URL, with individual targets for posts, pages and public custom post types.
- * Version: 0.9.1
+ * Version: 0.9.2
  * Requires at least: 7.1.2
  * Requires PHP: 8.2
  * Author: David Decker – DECKERWEB
@@ -20,7 +20,7 @@
  */
 defined( 'ABSPATH' ) || exit;
 define( 'DDW_RDC_FILE', __FILE__ );
-define( 'DDW_RDC_VERSION', '0.9.1' );
+define( 'DDW_RDC_VERSION', '0.9.2' );
 require_once __DIR__ . '/includes/deckerweb-plugin-library/bootstrap.php';
 deckerweb_library_register_v2( __FILE__, array(), __DIR__ . '/includes/deckerweb-plugin-library' );
 require_once __DIR__ . '/includes/updates.php';

@@ -6,7 +6,7 @@ layout: default
 
 A small Manage Content helper for WordPress. Ein kleines Manage-Content-Helfer-Plugin für WordPress.
 
-**0.9.1 · WordPress 7.1.2+ · PHP 8.2+**
+**0.9.2 · WordPress 7.1.2+ · PHP 8.2+**
 
 [Download plugin ZIP / Plugin-ZIP herunterladen](https://github.com/deckerweb/redirect-draft-content/releases/download/v0.9.1/redirect-draft-content-0.9.1.zip)
 

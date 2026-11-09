@@ -10,7 +10,7 @@ Redirect Draft Content leitet Aufrufe von Entwürfen vorübergehend auf ein ver�
 
 Ein Kunde musste über 300 Blogartikel umstellen und brauchte dafür dringend eine zuverlässige Lösung. Ich habe Redirect Draft Content gebaut, damit Besucher während der Umstellung ein sinnvolles Ziel erreichen, auch wenn Artikel vorübergehend wieder auf Entwurf stehen. Das Plugin wurde dabei zu seinem Rettungsring und hat sich im täglichen Einsatz bestens bewährt.
 
-**Version 0.9.1 · WordPress ≥ 7.1.2 · PHP ≥ 8.2 · GPL v2 oder höher**
+**Version 0.9.2 · WordPress ≥ 7.1.2 · PHP ≥ 8.2 · GPL v2 oder höher**
 
 [English](README.md) · [FAQ](docs/FAQ-Deutsch.md) · [Wiki](https://github.com/deckerweb/redirect-draft-content/wiki) · [GitHub](https://github.com/deckerweb/redirect-draft-content)
 
@@ -24,7 +24,7 @@ Inhalt: [Auf einen Blick](#auf-einen-blick) · [Erste Schritte](#erste-schritte)
 - Eigene HTTP-/HTTPS-URLs und Live-Vorschau.
 - Exakter Pfadabgleich und Schutz vor bekannten Entwurfsschleifen.
 - Englisch, Deutsch und Deutsch (Sie).
-- deckerweb Library 1.1.0 und deckerweb Updater 2.2.1.
+- deckerweb Library 1.3.0 und deckerweb Updater 2.4.0.
 
 ## Erste Schritte
 
@@ -78,6 +78,10 @@ Die Einstellungen in rdc_targets und alle Inhalte bleiben erhalten. Repositorybe
 [Vollständige FAQ nach Themen](docs/FAQ-Deutsch.md)
 
 ## Änderungsverlauf
+
+### 0.9.2 · 2026-11-09
+
+- **Behoben:** deckerweb Library auf 1.3.0 und Updater auf 2.4.0 aktualisiert: normale Updates unabhängig vom Katalog, begrenzte Downloads und strengere Paketprüfung.
 
 ### 0.9.1 · 2026-10-21
 

@@ -11,4 +11,5 @@ return array(
 	'Settings notices stay outside the plugin title and slogan.' => __( 'Settings notices stay outside the plugin title and slogan.', 'redirect-draft-content' ),
 	'Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.' => __( 'Temporary draft redirects for posts, pages and publicly viewable custom post types, with individual destinations and live previews.', 'redirect-draft-content' ),
 	'Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1.' => __( 'Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1.', 'redirect-draft-content' ),
+	'Updated deckerweb Library to 1.3.0 and Updater to 2.4.0: normal updates are independent of the catalog, with bounded downloads and stricter package checks.' => __( 'Updated deckerweb Library to 1.3.0 and Updater to 2.4.0: normal updates are independent of the catalog, with bounded downloads and stricter package checks.', 'redirect-draft-content' ),
 );

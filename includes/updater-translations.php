@@ -45,6 +45,46 @@ return static function ( string $message ): string {
             return __( 'The approved release could not be verified.', 'redirect-draft-content' );
         case 'The approved release changed. Refresh updates first.':
             return __( 'The approved release changed. Refresh updates first.', 'redirect-draft-content' );
+        case 'Catalog diagnostics require a public catalog provider.':
+            return __( 'Catalog diagnostics require a public catalog provider.', 'redirect-draft-content' );
+        case 'Catalog approval':
+            return __( 'Catalog approval', 'redirect-draft-content' );
+        case 'Package download':
+            return __( 'Package download', 'redirect-draft-content' );
+        case 'Checksum verification':
+            return __( 'Checksum verification', 'redirect-draft-content' );
+        case 'Archive verification':
+            return __( 'Archive verification', 'redirect-draft-content' );
+        case 'The update server could not be reached. Try again later.':
+            return __( 'The update server could not be reached. Try again later.', 'redirect-draft-content' );
+        case 'The update request timed out. Try again later.':
+            return __( 'The update request timed out. Try again later.', 'redirect-draft-content' );
+        case 'The update server address could not be resolved.':
+            return __( 'The update server address could not be resolved.', 'redirect-draft-content' );
+        case 'The secure connection to the update server failed.':
+            return __( 'The secure connection to the update server failed.', 'redirect-draft-content' );
+        case 'The update server returned an unsuccessful HTTP response.':
+            return __( 'The update server returned an unsuccessful HTTP response.', 'redirect-draft-content' );
+        case 'The update provider did not return valid update data.':
+            return __( 'The update provider did not return valid update data.', 'redirect-draft-content' );
+        case 'The package does not match the approved checksum. Installation was stopped.':
+            return __( 'The package does not match the approved checksum. Installation was stopped.', 'redirect-draft-content' );
+        case 'The archive or plugin identity could not be verified. Installation was stopped.':
+            return __( 'The archive or plugin identity could not be verified. Installation was stopped.', 'redirect-draft-content' );
+        case 'Update stopped at %1$s: %2$s':
+            /* translators: 1: update stage, 2: fixed explanation. */
+            return __( 'Update stopped at %1$s: %2$s', 'redirect-draft-content' );
+        case 'HTTP status: %d.':
+            /* translators: %d: HTTP error status. */
+            return __( 'HTTP status: %d.', 'redirect-draft-content' );
+        case 'Invalid private download limits.':
+            return __( 'Invalid private download limits.', 'redirect-draft-content' );
+        case 'Invalid package cleanup provider.':
+            return __( 'Invalid package cleanup provider.', 'redirect-draft-content' );
+        case 'Safe package cleanup is unavailable for this update provider.':
+            return __( 'Safe package cleanup is unavailable for this update provider.', 'redirect-draft-content' );
+        case 'The update package identity, version or requirements could not be verified.':
+            return __( 'The update package identity, version or requirements could not be verified.', 'redirect-draft-content' );
         default:
             return $message;
     }

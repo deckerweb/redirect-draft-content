@@ -4,7 +4,7 @@
  */
 defined( 'WP_UNINSTALL_PLUGIN' ) || exit;
 require_once __DIR__ . '/includes/deckerweb-plugin-library/lifecycle.php';
-deckerweb_library_uninstall_v3( __DIR__ . '/redirect-draft-content.php' );
+deckerweb_library_uninstall_v4( __DIR__ . '/redirect-draft-content.php' );
 // rdc_targets deliberately remains available for reinstall and snippet migration.
 // Clean versioned and historical caches for this repository in each network.
 /**

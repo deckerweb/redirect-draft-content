@@ -2,9 +2,9 @@
 Contributors: deckerweb
 Tags: redirects, drafts, content-management
 Requires at least: 7.1.2
-Tested up to: 7.1.2
+Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 0.9.1
+Stable tag: 0.9.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ Temporarily redirect drafts to published content or a custom URL, with individua
 - Custom HTTP/HTTPS URLs and live previews.
 - Exact route matching and protection against known draft loops.
 - English, German and formal German.
-- deckerweb Library 1.1.0 and deckerweb Updater 2.2.1.
+- deckerweb Library 1.3.0 and deckerweb Updater 2.4.0.
 
 == Installation ==
 1. Disable the existing Redirect Draft Content snippet.
@@ -50,6 +50,8 @@ Yes. Configure destinations in Settings → Draft Redirect on each site. Network
 Your rdc_targets settings and all content remain. Repository-specific updater caches are removed. Shared Library cleanup respects other installed hosts; its optional settings deletion only applies to the last host.
 
 == Changelog ==
+= 0.9.2 =
+* Fixed: Updated deckerweb Library to 1.3.0 and Updater to 2.4.0: normal updates are independent of the catalog, with bounded downloads and stricter package checks.
 = 0.9.1 =
 * Improved: Updated deckerweb Library to 1.1.0 and deckerweb Updater to 2.2.1.
 * Fixed: Reliable changelog closing and documentation fallback when the dialog cannot open.
